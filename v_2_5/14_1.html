@@ -1,0 +1,362 @@
+<!DOCTYPE html> 
+<html>
+
+<head> 
+	<link type="text/css" rel="stylesheet" href="../stylesheet.css"/>
+	<script src="../jquery-1.12.3.min.js"></script>
+	<script type="text/javascript" src="script_2_5.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+	<title>Computational Syzygies</title> 
+</head>
+
+
+
+<body>
+
+<div id="include-navbar"></div>
+
+<div class="quickview-div">
+	<table class="quickview-table">
+		
+		<tr>
+			<td><b>(n,d,b)</b></td>
+			<td>(2,5,0)</td>
+		</tr>
+		
+		<tr>
+			<td><b>(i,j)</b></td>
+			<td>(14,1)</td>
+		</tr>
+
+		<tr>
+			<td><b>Memory Used:</b></td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td><b>Verified:</b></td>
+			<td></td>
+		</tr>
+		
+	</table>
+</div>
+
+
+<div class="betti_div">
+	<table class="betti" id="tableA">
+		<tr class="betti_top">
+			<td class="betti_col"></td>
+			<td>0</td>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+			<td>5</td>
+			<td>6</td>
+			<td>7</td>
+			<td>8</td>
+			<td>9</td>
+			<td>10</td>
+			<td>11</td>
+			<td>12</td>
+			<td>13</td>
+			<td>14</td>
+			<td>15</td>
+			<td>16</td>
+			<td>17</td>
+			<td>18</td>		
+		</tr>
+		
+		<tr>
+			<td class="betti_col">0</td>
+			<td>1</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+		</tr>
+		
+		<tr>
+			<td class="betti_col">1</td>
+			<td>&mdash;</td>
+			<td><a href="../v_2_5/1_1.html">165</a></td>
+			<td><a href="../v_2_5/2_1.html">1830</a></td>
+			<td><a href="../v_2_5/3_1.html">10710</a></td>
+			<td><a href="../v_2_5/4_1.html">41616</a></td>
+			<td><a href="../v_2_5/5_1.html">117300</a></td>
+			<td><a href="../v_2_5/6_1.html">250920</a></td>
+			<td><a href="../v_2_5/7_1.html">417690</a></td>
+			<td><a href="../v_2_5/8_1.html">548080</a></td>
+			<td><a href="../v_2_5/9_1.html">568854</a></td>
+		    <td><a href="../v_2_5/10_1.html">464100</a></td>
+			<td><a href="../v_2_5/11_1.html">291720</a></td>
+			<td><a href="../v_2_5/12_1.html">134640</a></td>
+			<td><a href="../v_2_5/13_1.html">39780</a></td>
+			<td><a href="../v_2_5/14_1.html">4855</a></td>
+			<td><a href="../v_2_5/15_1.html">375</a></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td class="betti_col">2</td>
+			<td>&mdash;</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="../v_2_5/13_2.html">2002</a></td>
+			<td><a href="../v_2_5/14_2.html">4200</a></td>
+			<td><a href="../v_2_5/15_2.html">2160</a></td>
+			<td><a href="../v_2_5/16_2.html">595</a></td>
+			<td><a href="../v_2_5/17_2.html">90</a></td>
+			<td><a href="../v_2_5/18_2.html">6</a></td>
+		</tr>
+		
+	</table>
+	
+	<table class="betti" id="tableB">
+		<tr class="betti_top">
+			<td class="betti_col"></td>
+			<td>0</td>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+			<td>5</td>
+			<td>6</td>
+			<td>7</td>
+			<td>8</td>
+			<td>9</td>
+			<td>10</td>
+			<td>11</td>
+			<td>12</td>
+			<td>13</td>
+			<td>14</td>
+			<td>15</td>
+			<td>16</td>
+			<td>17</td>
+			<td>18</td>		
+		</tr>
+		
+		<tr>
+			<td class="betti_col">0</td>
+			<td>(0,0,0)</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+		</tr>
+		
+		<tr>
+			<td class="betti_col">1</td>
+			<td>&mdash;</td>
+			<td><a href="../v_2_5/1_1.html">(8,2,0)</a></td>
+			<td><a href="../v_2_5/2_1.html">(12,2,1)</a></td>
+			<td><a href="../v_2_5/3_1.html">(15,4,1)</a></td>
+			<td><a href="../v_2_5/4_1.html">(18,5,2)</a></td>
+			<td><a href="../v_2_5/5_1.html">(21,5,4)</a></td>
+			<td><a href="../v_2_5/6_1.html">(23,8,4)</a></td>
+			<td><a href="../v_2_5/7_1.html">(25,10,5)</a></td>
+			<td><a href="../v_2_5/8_1.html">(27,11,7)</a></td>
+			<td><a href="../v_2_5/9_1.html">(29,11,10)</a></td>
+		    <td><a href="../v_2_5/10_1.html">(30,15,10)</a></td>
+			<td><a href="../v_2_5/11_1.html">(31,18,11)</a></td>
+			<td><a href="../v_2_5/12_1.html">(32,20,13)</a></td>
+			<td><a href="../v_2_5/13_1.html">(33,21,16)</a></td>
+			<td><a href="../v_2_5/14_1.html">(34,31,20)</a></td>
+			<td><a href="../v_2_5/15_1.html">(34,25,21)</a></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td class="betti_col">2</td>
+			<td>&mdash;</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="../v_2_5/13_2.html">(30,30,15)</a></td>
+			<td><a href="../v_2_5/14_2.html">(32,30,18)</a></td>
+			<td><a href="../v_2_5/15_2.html">(33,31,21)</a></td>
+			<td><a href="../v_2_5/16_2.html">(34,31,35)</a></td>
+			<td><a href="../v_2_5/17_2.html">(34,33,28)</a></td>
+			<td><a href="../v_2_5/18_2.html">(34,34,32)</a></td>
+		</tr>
+		
+	</table>
+	
+	<table class="betti" id="tableC">
+		<tr class="betti_top">
+			<td class="betti_col"></td>
+			<td>0</td>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+			<td>5</td>
+			<td>6</td>
+			<td>7</td>
+			<td>8</td>
+			<td>9</td>
+			<td>10</td>
+			<td>11</td>
+			<td>12</td>
+			<td>13</td>
+			<td>14</td>
+			<td>15</td>
+			<td>16</td>
+			<td>17</td>
+			<td>18</td>		
+		</tr>
+		
+		<tr>
+			<td class="betti_col">0</td>
+			<td>1</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+		</tr>
+		
+		<tr>
+			<td class="betti_col">1</td>
+			<td>&mdash;</td>
+			<td><a href="../v_2_5/1_1.html">2</a></td>
+			<td><a href="../v_2_5/2_1.html">16</a></td>
+			<td><a href="../v_2_5/3_1.html">31</a></td>
+			<td><a href="../v_2_5/4_1.html">43</a></td>
+			<td><a href="../v_2_5/5_1.html">53</a></td>
+			<td><a href="../v_2_5/6_1.html">61</a></td>
+			<td><a href="../v_2_5/7_1.html">68</a></td>
+			<td><a href="../v_2_5/8_1.html">72</a></td>
+			<td><a href="../v_2_5/9_1.html">72</a></td>
+		    <td><a href="../v_2_5/10_1.html">71</a></td>
+			<td><a href="../v_2_5/11_1.html">68</a></td>
+			<td><a href="../v_2_5/12_1.html">61</a></td>
+			<td><a href="../v_2_5/13_1.html">48</a></td>
+			<td><a href="../v_2_5/14_1.html">15</a></td>
+			<td><a href="../v_2_5/15_1.html">1</a></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td class="betti_col">2</td>
+			<td>&mdash;</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="../v_2_5/13_2.html">14</a></td>
+			<td><a href="../v_2_5/14_2.html">22</a></td>
+			<td><a href="../v_2_5/15_2.html">18</a></td>
+			<td><a href="../v_2_5/16_2.html">9</a></td>
+			<td><a href="../v_2_5/17_2.html">2</a></td>
+			<td><a href="../v_2_5/18_2.html">1</a></td>
+		</tr>
+		
+	</table>
+</div>
+	
+<div class="button_div">
+	<input type="button" id="showTableA" value="Betti Numbers">
+	<input type="button" id="showTableB" value="Lex Leading Weights">
+	<input type="button" id="showTableC" value="# of Dist. Irred. Reps.">
+	<script src="script_2_5.js"></script>
+</div>
+
+<div class="multideg-container">
+	<p>
+		<b> Multigraded Betti Data:</b> Below are the multigraded Betti numbers for
+	</p>
+
+	<div class="multideg-div">
+			<div id="include-v_2_5_14_1"></div>
+	</div>
+
+	<div  class="heat-map-container">
+		<img src="14_1.png">
+	</div>
+</div>
+
+<div class="schur-container">
+	<p>
+		<b>Schur Functions Data:</b> Below are the Schur functions appearing in
+	</p>
+
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,335 @@
+/* This is for the navbar.*/ 
+
+div.navbar {
+display: inline-block;
+margin-top:1em;
+margin-left:1em;
+min-width: 900px
+}
+
+.logo{
+	display:inline-block;
+	float left;
+	width: 250px;
+	height: auto;
+}
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+li.navbar {
+    float: left;
+}
+
+ul.navbar li a, .dropbtn {
+    display: inline-block;
+    text-align: center;
+    color: black;
+   	font-family: 'Merriweather', serif;
+	font-size:18px;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.navbar li a:hover, .dropdown:hover .dropbtn {
+    background-color: #bb3333;
+}
+
+ul.navbar li.dropdown {
+    display: inline-block;
+}
+
+ul.navbar .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+ul.navbar .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: left;
+}
+
+ul.navbar .dropdown-content a:hover {background-color: #bb3333}
+
+ul.navbar .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+
+/* This is for creating blocks of text.*/ 
+/* This is used on the homepage, our approach, and everywhere  */
+div.overview{
+	font-family: 'Merriweather', serif;
+    font-size:16px;
+    width:800px;
+	display:inline-block;
+	margin-left:3em;
+	margin-right:2em;
+	margin-top:3em;
+    }
+ 
+div.overview a{
+	font-family: 'Merriweather', serif;
+    font-size: 16px;
+    color: #bb3333;
+    text-decoration: none;
+    
+    }
+/* 
+This is all to format the small .
+ */
+ 
+.nav_table{
+	overflow-x:scroll;
+	width: 900px;
+	display:inline-block;
+	margin-left:7em;
+	padding:2em;
+	margin-top:-1em;
+}
+
+/* 
+This is all to format the quickview boxes.
+ */
+ 
+.quickview-div{
+	overflow-x:scroll;
+	width: 900px;
+	display:inline-block;
+	position:absolute;
+	margin-left:2em;
+	padding:2em;
+	margin-top:.25em;
+}
+
+.quickview-table{
+	font-family: 'Merriweather', serif;
+	border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.quickview-table tr td {
+	padding: 5px;
+	text-align:center;
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+}
+
+
+/* 
+This is all to format the betti tables.
+ */
+
+
+.betti_div{
+	overflow-x:scroll;
+	width: 900px;
+	display:inline-block;
+	position:absolute;
+	margin-left:2em;
+	padding:1.5em;
+	margin-top:10em;
+}
+
+.button_div{
+	overflow-x:scroll;
+	width: 900px;
+	display:inline-block;
+	position:absolute;
+	margin-left:2em;
+	padding:2em;
+	margin-top:20.5em;
+}
+
+
+.betti{
+	font-family: 'Merriweather', serif;
+	border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.betti tr td, a {
+	padding: 10px;
+	text-align:center;
+	color: black;
+	text-decoration: none;
+}
+
+.betti a:hover {background-color: #bb3333}
+
+.betti_col{
+	border-right: 1px solid #ddd;
+	font-weight:bold;
+	border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.betti_top{
+	border-bottom: 1px solid #ddd;
+	font-weight:bold;
+	border-spacing: 0;
+    border-collapse: collapse;
+}
+
+
+/* 
+This is all to format the heatmaps for the multidegree pages.
+ */
+ 
+.heat-map-container{
+	width: 700px;
+	height: auto;
+	position:absolute;
+	margin-left:20em;
+	margin-top:1em;
+
+}
+
+.heat-map-container img{
+	display:block;
+	width: 700px;
+	height: auto;
+}
+
+
+/* 
+This is all to format the multidegree tables.
+ */
+ 
+.multideg-div{
+	overflow-y:scroll;
+	height: 600px;
+	display:inline-block;
+	float:left;
+	margin-left:1em;
+	padding:2em;
+	margin-top:2em;
+	height: 400px;
+}
+
+.multideg-table{
+	font-family: 'Merriweather', serif;
+	border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.multideg-table tr td {
+	padding: 10px;
+	text-align:center;
+}
+
+.multideg_col{
+	border-right: 1px solid #ddd;
+	border-spacing: 0;
+    border-collapse: collapse;
+}
+
+
+.multideg_end_col{
+	border-right: none;
+	border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.multideg_row{
+	border-bottom: 1px solid #ddd;
+	border-spacing: 0;
+    border-collapse: collapse;
+}
+
+/* 
+This is frontpage overview.
+ */
+.multideg-container{
+	font-family: 'Merriweather', serif;
+    font-size:16px;
+    width:1000px;
+	display:inline-block;
+	margin-left:3em;
+	margin-right:2em;
+	margin-top:23em;
+	padding-top:2em;
+    }
+
+
+.schur-container{
+	font-family: 'Merriweather', serif;
+    font-size:16px;
+    width:1000px;
+	display:inline-block;
+	margin-left:3em;
+	margin-right:2em;
+	margin-top:5em;
+	padding-top:2em;
+    }
+
+/* 
+Used to flip between the three Betti tbales
+*/
+
+#tableA {
+}
+
+#tableB {
+    display: none;
+}
+#tableC {
+    display: none;
+}
+
+
+/* 
+Formating photos on the authors page
+*/
+
+.authors{
+	position: absolute;
+	top:10em;
+	left:3em;
+}
+
+.authors figure img{
+	width: 200px;
+	height: auto;
+}
+
+figure {
+    display: inline-block;
+    margin: 1.5em;
+}
+
+figcaption {
+    margin: 10px 0 0 0;
+    font-family: 'Merriweather', serif;
+    color: #bb3333;
+    text-align:center;
+}
+
+
+/* 
+MISC TO BE FOUND LATER.
+*/
+
+#description {
+	font-family:Helvetica;
+	position:absolute;
+	margin-top:1em;
+	top:3em;
+	margin-left: 45em;
+    margin-right: 5em;
+}

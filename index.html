@@ -1,0 +1,59 @@
+<!DOCTYPE html> 
+<html>
+
+<head> 
+	<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+	<script src="jquery-1.12.3.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<title>Computational Syzygies</title> 
+	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+</head>
+
+<body>
+
+	<div id="include-navbar"></div>
+	
+	<div class="overview">
+		<p>
+		A fundamental open question about syzygies is to describe the Betti
+		table of a projective space under the degree d Veronese embedding.  This
+		is fully understood for the case of a projective line, but even for a
+		projective plane a full description is unknown.  For the projective
+		plane, the issue is that the number of variables grows quadratically
+		with d, and so the computational complexity ratchets up quickly.  For
+		instance, when d is at most 3, one can compute the entire Betti table
+		with paper and pencil; when d is 4, Macaulay2 competes the Betti table
+		in about 30 seconds.  Yet even when d is 5, our computation in Macaulay2
+		fails to terminate.
+		</br>
+		</br>
+		The goal of this project is to compute (or partially compute) the Betti
+		tables of Veronese embeddings of projective spaces via an alternate
+		method.  Instead of computing the free resolutions, we consider individual multigraded strands, 
+		computing individual multigraded Betti numbers. From these finer invariants we are then able to
+		recover both the standard graded Betti numbers, but also the associated Schur functions. 
+		The advantage to this approach is twofold:
+		<ul>
+			<li> First, it moves us from a symbolic algebra to a linear algebra problem, and this allows us to capitalize on some of the incredible technology from numerical linear algebra. </li>
+			<li> Second, it breaks the necessary computations up into smaller pieces making it ideal fo parallelized computing.  </li>
+		</ul>
+		Currently, we combine sparse, numerical linear
+		algebra (via QR and LU factorization algorithms) with high throughput, and high
+		performance computing (via HTCondor) to implement this method effectively.
+		</br>
+		</br>
+		While others (CITATION NEEDED) have also recently implemented similar ideas regarding the computation of graded Betti numbers in a similar manner, our approach has one additional benefit,
+		the Schur function data. As d increases the graded and multigraded Betti numbers of the Veronese embedding grow, quickly becoming so large and numerous as to be difficult to work with. 
+		In particular, there size &mdash; in the hundreds of millions &mdash; obscures much of the underlying structure and patterns. However, packaging this data via the associated Schur functions, 
+		makes the data easier to work with, and has allowed us to glimpse some of the underlying structure of these syzygies.
+		</br>
+		</br>
+		Our belief in generating this experimental data  is that it will lead to new conjectures about the syzygies of Veroneses. (See the Conjectures page for a list of conjectures and questions we have raised.) 
+		Thus we are content working with numerical algorithms, despite the potential for accidentally rounding a minuscule value down to zero. Throughout, we will clearly differentiate between the
+		Betti numbers that have been computed symbolically (e.g. by Gr&ouml;obner
+		basis algorithms) from those that were computed numerically. (Note: Our Schur function methods allow us to catch and correct most small rounding errors. See Our Approach for further description.)
+		</p>
+	</div>
+
+</body> 
+</html>

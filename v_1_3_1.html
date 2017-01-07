@@ -1,0 +1,132 @@
+<!DOCTYPE html> 
+<html>
+
+<head> 
+	<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+	<script src="jquery-1.12.3.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+	<title>Computational Syzygies</title> 
+</head>
+
+
+
+<body>
+<div id="include-navbar"></div>
+
+<div class="quickview-div">
+	<table class="quickview-table">
+		
+		<tr>
+			<td><b>(n,d,b)</b></td>
+			<td>(1,3,1)</td>
+		</tr>
+		
+		<tr>
+			<td><b>CPU Time:</b></td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td><b>Memory Used:</b></td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td><b>Verified:</b></td>
+			<td></td>
+		</tr>
+		
+	</table>
+</div>
+
+<div class="betti_div">
+	<table class="betti" id="tableA">
+		<tr class="betti_top">
+			<td class="betti_col"></td>
+			<td>0</td>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+		</tr>
+		
+		<tr>
+			<td class="betti_col">0</td>
+			<td><a href="v_1_3_1/0_0.html">2</a></td>
+			<td><a href="v_1_3_1/1_0.html">3</a></td>
+			<td><a href="v_1_3_1/2_0.html">0</a></td>
+			<td><a href="v_1_3_1/3_0.html">0</a></td>
+		</tr>
+		
+		<tr>
+			<td class="betti_col">1</td>
+			<td><a href="v_1_3_1/0_1.html">0</a></td>
+			<td><a href="v_1_3_1/1_1.html">0</a></td>
+			<td><a href="v_1_3_1/2_1.html">1</a></td>
+			<td><a href="v_1_3_1/3_1.html">0</a></td>
+		</tr>
+	</table>
+	
+	<table class="betti" id="tableB">
+		<tr class="betti_top">
+			<td class="betti_col"></td>
+			<td>0</td>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+		</tr>
+		
+		<tr>
+			<td class="betti_col">0</td>
+			<td><a href="v_1_3_1/0_0.html">(1,0)</a></td>
+			<td><a href="v_1_3_1/1_0.html">(3,1)</a></td>
+			<td><a href="v_1_3_1/2_0.html">0</a></td>
+			<td><a href="v_1_3_1/3_0.html">0</a></td>
+		</tr>
+		
+		<tr>
+			<td class="betti_col">1</td>
+			<td><a href="v_1_3_1/0_1.html">0</a></td>
+			<td><a href="v_1_3_1/1_1.html">0</a></td>
+			<td><a href="v_1_3_1/2_1.html">(5,5)</a></td>
+			<td><a href="v_1_3_1/3_1.html">0</a></td>
+		</tr>
+	</table>
+
+	<table class="betti" id="tableC">
+		<tr class="betti_top">
+			<td class="betti_col"></td>
+			<td>0</td>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+		</tr>
+		
+		<tr>
+			<td class="betti_col">0</td>
+			<td><a href="v_1_3_1/0_0.html">1</a></td>
+			<td><a href="v_1_3_1/1_0.html">1</a></td>
+			<td><a href="v_1_3_1/2_0.html">0</a></td>
+			<td><a href="v_1_3_1/3_0.html">0</a></td>
+		</tr>
+		
+		<tr>
+			<td class="betti_col">1</td>
+			<td><a href="v_1_3_1/0_1.html">0</a></td>
+			<td><a href="v_1_3_1/1_1.html">0</a></td>
+			<td><a href="v_1_3_1/2_1.html">1</a></td>
+			<td><a href="v_1_3_1/3_1.html">0</a></td>
+		</tr>
+	</table>
+
+</div>
+	
+<div class="button_div">
+	<input type="button" id="showTableA" value="Betti Numbers">
+	<input type="button" id="showTableB" value="Lex Leading Weights">
+	<input type="button" id="showTableC" value="# of Dist. Irred. Reps.">
+	<script src="script.js"></script>
+</div>
+
+</body>
+</html>

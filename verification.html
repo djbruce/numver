@@ -1,0 +1,57 @@
+<!DOCTYPE html> 
+<html>
+
+<head> 
+	<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+	<title>Verification - Computational Syzygies</title> 
+</head>
+
+<body>
+
+	 <div id="include-navbar"></div>
+	
+	<div class="overview">
+		<p>
+As noted elsewhere our reliance on numerical linear algebra means our computations are never 
+100% precise, and there is always room for error. In particular, we cannot be sure that 
+the Betti numbers we compute are the true Betti numbers and not simply an approximation. Thus, 
+whenever possible we work to verify our computations in various ways. Throughout 
+the codes Rk-V, Gb-V, MgGb-V, etc. refer to the following verification methods.
+
+<br><br>
+
+<b>Rk-V. Rank Verification.</b> This means we have checked our rank computations using MatLab's 
+standard dense rank algorithm rank(A), and the results agree up to machine precision with our
+methods. This helps ensure our qr-factorization algorithm works as intended. We preform this 
+verification with the following code (ADD LATER). (Note: Due to the
+massive performance decrease when using dense algorithms this verification is only possible on the smallest 
+of examples.)
+
+<br><br>
+
+<b>Gb-V. Grobner Verification.</b> This means the Betti table for this particular \(S^{(d)}\) has been
+computed precisely using Macuaaly2's Grobener basis algorthims and it agrees with our results. We preform this verfication
+via the following Macaualay2 code. 
+
+<br><br>
+
+<b>MgGb-V. Multi-graded Grobner Verification.</b> This means the multi-graded Betti table for this particular \(S^{(d)}\) has been
+computed precisely using Macuaaly2's Grobener basis algorthims and it agrees with our results. We preform this verfication
+via the following Macaualay2 code. (Note: This verification makes use of the SplendidComplexes package, which is still underdevelopment.)
+
+<br><br>
+	
+<b>Th-V. Theoretical Verification.</b>	This means our result has been compared to and agrees with one of the theoretical results listed below:
+		</p>
+	</div>
+	
+
+
+</body> 
+</html>
