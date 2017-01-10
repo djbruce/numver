@@ -1,0 +1,2774 @@
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+var tableA = document.getElementById("tableA");
+var tableB = document.getElementById("tableB");
+var tableC = document.getElementById("tableC");
+
+var btnTabA = document.getElementById("showTableA");
+var btnTabB = document.getElementById("showTableB");
+var btnTabC = document.getElementById("showTableC");
+
+btnTabA.onclick = function () {
+    tableA.style.display = "table";
+    tableB.style.display = "none";
+    tableC.style.display = "none";
+}
+btnTabB.onclick = function () {
+    tableA.style.display = "none";
+    tableB.style.display = "table";
+    tableC.style.display = "none";
+}
+btnTabC.onclick = function () {
+    tableA.style.display = "none";
+    tableB.style.display = "none";
+    tableC.style.display = "table";
+}
+
+$(function(){
+	$("#include-betti1_0").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg1_0_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc1_0_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti2_0").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg2_0_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc2_0_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg2_0_1_1").load("mgtable_1_1.html");
+});
+$(function(){
+	$("#include-sc2_0_1_1").load("sctable_1_1.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti2_1").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg2_1_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc2_1_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg2_1_1_0").load("mgtable_1_0.html");
+});
+$(function(){
+	$("#include-sc2_1_1_0").load("sctable_1_0.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti3_0").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg3_0_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc3_0_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg3_0_1_1").load("mgtable_1_1.html");
+});
+$(function(){
+	$("#include-sc3_0_1_1").load("sctable_1_1.html");
+});
+$(function(){
+	$("#include-mg3_0_2_1").load("mgtable_2_1.html");
+});
+$(function(){
+	$("#include-sc3_0_2_1").load("sctable_2_1.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti3_1").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg3_1_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc3_1_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg3_1_1_0").load("mgtable_1_0.html");
+});
+$(function(){
+	$("#include-sc3_1_1_0").load("sctable_1_0.html");
+});
+$(function(){
+	$("#include-mg3_1_2_1").load("mgtable_2_1.html");
+});
+$(function(){
+	$("#include-sc3_1_2_1").load("sctable_2_1.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti3_2").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg3_2_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc3_2_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg3_2_1_0").load("mgtable_1_0.html");
+});
+$(function(){
+	$("#include-sc3_2_1_0").load("sctable_1_0.html");
+});
+$(function(){
+	$("#include-mg3_2_2_0").load("mgtable_2_0.html");
+});
+$(function(){
+	$("#include-sc3_2_2_0").load("sctable_2_0.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti4_0").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg4_0_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc4_0_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg4_0_1_1").load("mgtable_1_1.html");
+});
+$(function(){
+	$("#include-sc4_0_1_1").load("sctable_1_1.html");
+});
+$(function(){
+	$("#include-mg4_0_2_1").load("mgtable_2_1.html");
+});
+$(function(){
+	$("#include-sc4_0_2_1").load("sctable_2_1.html");
+});
+$(function(){
+	$("#include-mg4_0_3_1").load("mgtable_3_1.html");
+});
+$(function(){
+	$("#include-sc4_0_3_1").load("sctable_3_1.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti4_1").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg4_1_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc4_1_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg4_1_1_0").load("mgtable_1_0.html");
+});
+$(function(){
+	$("#include-sc4_1_1_0").load("sctable_1_0.html");
+});
+$(function(){
+	$("#include-mg4_1_2_1").load("mgtable_2_1.html");
+});
+$(function(){
+	$("#include-sc4_1_2_1").load("sctable_2_1.html");
+});
+$(function(){
+	$("#include-mg4_1_3_1").load("mgtable_3_1.html");
+});
+$(function(){
+	$("#include-sc4_1_3_1").load("sctable_3_1.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti4_2").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg4_2_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc4_2_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg4_2_1_0").load("mgtable_1_0.html");
+});
+$(function(){
+	$("#include-sc4_2_1_0").load("sctable_1_0.html");
+});
+$(function(){
+	$("#include-mg4_2_2_0").load("mgtable_2_0.html");
+});
+$(function(){
+	$("#include-sc4_2_2_0").load("sctable_2_0.html");
+});
+$(function(){
+	$("#include-mg4_2_3_1").load("mgtable_3_1.html");
+});
+$(function(){
+	$("#include-sc4_2_3_1").load("sctable_3_1.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti4_3").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg4_3_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc4_3_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg4_3_1_0").load("mgtable_1_0.html");
+});
+$(function(){
+	$("#include-sc4_3_1_0").load("sctable_1_0.html");
+});
+$(function(){
+	$("#include-mg4_3_2_0").load("mgtable_2_0.html");
+});
+$(function(){
+	$("#include-sc4_3_2_0").load("sctable_2_0.html");
+});
+$(function(){
+	$("#include-mg4_3_3_0").load("mgtable_3_0.html");
+});
+$(function(){
+	$("#include-sc4_3_3_0").load("sctable_3_0.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti5_0").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg5_0_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc5_0_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg5_0_1_1").load("mgtable_1_1.html");
+});
+$(function(){
+	$("#include-sc5_0_1_1").load("sctable_1_1.html");
+});
+$(function(){
+	$("#include-mg5_0_2_1").load("mgtable_2_1.html");
+});
+$(function(){
+	$("#include-sc5_0_2_1").load("sctable_2_1.html");
+});
+$(function(){
+	$("#include-mg5_0_3_1").load("mgtable_3_1.html");
+});
+$(function(){
+	$("#include-sc5_0_3_1").load("sctable_3_1.html");
+});
+$(function(){
+	$("#include-mg5_0_4_1").load("mgtable_4_1.html");
+});
+$(function(){
+	$("#include-sc5_0_4_1").load("sctable_4_1.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti5_1").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg5_1_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc5_1_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg5_1_1_0").load("mgtable_1_0.html");
+});
+$(function(){
+	$("#include-sc5_1_1_0").load("sctable_1_0.html");
+});
+$(function(){
+	$("#include-mg5_1_2_1").load("mgtable_2_1.html");
+});
+$(function(){
+	$("#include-sc5_1_2_1").load("sctable_2_1.html");
+});
+$(function(){
+	$("#include-mg5_1_3_1").load("mgtable_3_1.html");
+});
+$(function(){
+	$("#include-sc5_1_3_1").load("sctable_3_1.html");
+});
+$(function(){
+	$("#include-mg5_1_4_1").load("mgtable_4_1.html");
+});
+$(function(){
+	$("#include-sc5_1_4_1").load("sctable_4_1.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti5_2").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg5_2_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc5_2_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg5_2_1_0").load("mgtable_1_0.html");
+});
+$(function(){
+	$("#include-sc5_2_1_0").load("sctable_1_0.html");
+});
+$(function(){
+	$("#include-mg5_2_2_0").load("mgtable_2_0.html");
+});
+$(function(){
+	$("#include-sc5_2_2_0").load("sctable_2_0.html");
+});
+$(function(){
+	$("#include-mg5_2_3_1").load("mgtable_3_1.html");
+});
+$(function(){
+	$("#include-sc5_2_3_1").load("sctable_3_1.html");
+});
+$(function(){
+	$("#include-mg5_2_4_1").load("mgtable_4_1.html");
+});
+$(function(){
+	$("#include-sc5_2_4_1").load("sctable_4_1.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti5_3").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg5_3_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc5_3_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg5_3_1_0").load("mgtable_1_0.html");
+});
+$(function(){
+	$("#include-sc5_3_1_0").load("sctable_1_0.html");
+});
+$(function(){
+	$("#include-mg5_3_2_0").load("mgtable_2_0.html");
+});
+$(function(){
+	$("#include-sc5_3_2_0").load("sctable_2_0.html");
+});
+$(function(){
+	$("#include-mg5_3_3_0").load("mgtable_3_0.html");
+});
+$(function(){
+	$("#include-sc5_3_3_0").load("sctable_3_0.html");
+});
+$(function(){
+	$("#include-mg5_3_4_1").load("mgtable_4_1.html");
+});
+$(function(){
+	$("#include-sc5_3_4_1").load("sctable_4_1.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti5_4").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg5_4_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc5_4_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg5_4_1_0").load("mgtable_1_0.html");
+});
+$(function(){
+	$("#include-sc5_4_1_0").load("sctable_1_0.html");
+});
+$(function(){
+	$("#include-mg5_4_2_0").load("mgtable_2_0.html");
+});
+$(function(){
+	$("#include-sc5_4_2_0").load("sctable_2_0.html");
+});
+$(function(){
+	$("#include-mg5_4_3_0").load("mgtable_3_0.html");
+});
+$(function(){
+	$("#include-sc5_4_3_0").load("sctable_3_0.html");
+});
+$(function(){
+	$("#include-mg5_4_4_0").load("mgtable_4_0.html");
+});
+$(function(){
+	$("#include-sc5_4_4_0").load("sctable_4_0.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti6_0").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg6_0_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc6_0_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg6_0_1_1").load("mgtable_1_1.html");
+});
+$(function(){
+	$("#include-sc6_0_1_1").load("sctable_1_1.html");
+});
+$(function(){
+	$("#include-mg6_0_2_1").load("mgtable_2_1.html");
+});
+$(function(){
+	$("#include-sc6_0_2_1").load("sctable_2_1.html");
+});
+$(function(){
+	$("#include-mg6_0_3_1").load("mgtable_3_1.html");
+});
+$(function(){
+	$("#include-sc6_0_3_1").load("sctable_3_1.html");
+});
+$(function(){
+	$("#include-mg6_0_4_1").load("mgtable_4_1.html");
+});
+$(function(){
+	$("#include-sc6_0_4_1").load("sctable_4_1.html");
+});
+$(function(){
+	$("#include-mg6_0_5_1").load("mgtable_5_1.html");
+});
+$(function(){
+	$("#include-sc6_0_5_1").load("sctable_5_1.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti6_1").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg6_1_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc6_1_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg6_1_1_0").load("mgtable_1_0.html");
+});
+$(function(){
+	$("#include-sc6_1_1_0").load("sctable_1_0.html");
+});
+$(function(){
+	$("#include-mg6_1_2_1").load("mgtable_2_1.html");
+});
+$(function(){
+	$("#include-sc6_1_2_1").load("sctable_2_1.html");
+});
+$(function(){
+	$("#include-mg6_1_3_1").load("mgtable_3_1.html");
+});
+$(function(){
+	$("#include-sc6_1_3_1").load("sctable_3_1.html");
+});
+$(function(){
+	$("#include-mg6_1_4_1").load("mgtable_4_1.html");
+});
+$(function(){
+	$("#include-sc6_1_4_1").load("sctable_4_1.html");
+});
+$(function(){
+	$("#include-mg6_1_5_1").load("mgtable_5_1.html");
+});
+$(function(){
+	$("#include-sc6_1_5_1").load("sctable_5_1.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti6_2").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg6_2_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc6_2_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg6_2_1_0").load("mgtable_1_0.html");
+});
+$(function(){
+	$("#include-sc6_2_1_0").load("sctable_1_0.html");
+});
+$(function(){
+	$("#include-mg6_2_2_0").load("mgtable_2_0.html");
+});
+$(function(){
+	$("#include-sc6_2_2_0").load("sctable_2_0.html");
+});
+$(function(){
+	$("#include-mg6_2_3_1").load("mgtable_3_1.html");
+});
+$(function(){
+	$("#include-sc6_2_3_1").load("sctable_3_1.html");
+});
+$(function(){
+	$("#include-mg6_2_4_1").load("mgtable_4_1.html");
+});
+$(function(){
+	$("#include-sc6_2_4_1").load("sctable_4_1.html");
+});
+$(function(){
+	$("#include-mg6_2_5_1").load("mgtable_5_1.html");
+});
+$(function(){
+	$("#include-sc6_2_5_1").load("sctable_5_1.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti6_3").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg6_3_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc6_3_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg6_3_1_0").load("mgtable_1_0.html");
+});
+$(function(){
+	$("#include-sc6_3_1_0").load("sctable_1_0.html");
+});
+$(function(){
+	$("#include-mg6_3_2_0").load("mgtable_2_0.html");
+});
+$(function(){
+	$("#include-sc6_3_2_0").load("sctable_2_0.html");
+});
+$(function(){
+	$("#include-mg6_3_3_0").load("mgtable_3_0.html");
+});
+$(function(){
+	$("#include-sc6_3_3_0").load("sctable_3_0.html");
+});
+$(function(){
+	$("#include-mg6_3_4_1").load("mgtable_4_1.html");
+});
+$(function(){
+	$("#include-sc6_3_4_1").load("sctable_4_1.html");
+});
+$(function(){
+	$("#include-mg6_3_5_1").load("mgtable_5_1.html");
+});
+$(function(){
+	$("#include-sc6_3_5_1").load("sctable_5_1.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti6_4").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg6_4_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc6_4_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg6_4_1_0").load("mgtable_1_0.html");
+});
+$(function(){
+	$("#include-sc6_4_1_0").load("sctable_1_0.html");
+});
+$(function(){
+	$("#include-mg6_4_2_0").load("mgtable_2_0.html");
+});
+$(function(){
+	$("#include-sc6_4_2_0").load("sctable_2_0.html");
+});
+$(function(){
+	$("#include-mg6_4_3_0").load("mgtable_3_0.html");
+});
+$(function(){
+	$("#include-sc6_4_3_0").load("sctable_3_0.html");
+});
+$(function(){
+	$("#include-mg6_4_4_0").load("mgtable_4_0.html");
+});
+$(function(){
+	$("#include-sc6_4_4_0").load("sctable_4_0.html");
+});
+$(function(){
+	$("#include-mg6_4_5_1").load("mgtable_5_1.html");
+});
+$(function(){
+	$("#include-sc6_4_5_1").load("sctable_5_1.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti6_5").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg6_5_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc6_5_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg6_5_1_0").load("mgtable_1_0.html");
+});
+$(function(){
+	$("#include-sc6_5_1_0").load("sctable_1_0.html");
+});
+$(function(){
+	$("#include-mg6_5_2_0").load("mgtable_2_0.html");
+});
+$(function(){
+	$("#include-sc6_5_2_0").load("sctable_2_0.html");
+});
+$(function(){
+	$("#include-mg6_5_3_0").load("mgtable_3_0.html");
+});
+$(function(){
+	$("#include-sc6_5_3_0").load("sctable_3_0.html");
+});
+$(function(){
+	$("#include-mg6_5_4_0").load("mgtable_4_0.html");
+});
+$(function(){
+	$("#include-sc6_5_4_0").load("sctable_4_0.html");
+});
+$(function(){
+	$("#include-mg6_5_5_0").load("mgtable_5_0.html");
+});
+$(function(){
+	$("#include-sc6_5_5_0").load("sctable_5_0.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti7_0").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg7_0_6_1").load("mgtable_6_1.html");
+});
+$(function(){
+	$("#include-sc7_0_6_1").load("sctable_6_1.html");
+});
+$(function(){
+	$("#include-mg7_0_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc7_0_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg7_0_1_1").load("mgtable_1_1.html");
+});
+$(function(){
+	$("#include-sc7_0_1_1").load("sctable_1_1.html");
+});
+$(function(){
+	$("#include-mg7_0_2_1").load("mgtable_2_1.html");
+});
+$(function(){
+	$("#include-sc7_0_2_1").load("sctable_2_1.html");
+});
+$(function(){
+	$("#include-mg7_0_3_1").load("mgtable_3_1.html");
+});
+$(function(){
+	$("#include-sc7_0_3_1").load("sctable_3_1.html");
+});
+$(function(){
+	$("#include-mg7_0_4_1").load("mgtable_4_1.html");
+});
+$(function(){
+	$("#include-sc7_0_4_1").load("sctable_4_1.html");
+});
+$(function(){
+	$("#include-mg7_0_5_1").load("mgtable_5_1.html");
+});
+$(function(){
+	$("#include-sc7_0_5_1").load("sctable_5_1.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti7_1").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg7_1_6_1").load("mgtable_6_1.html");
+});
+$(function(){
+	$("#include-sc7_1_6_1").load("sctable_6_1.html");
+});
+$(function(){
+	$("#include-mg7_1_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc7_1_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg7_1_1_0").load("mgtable_1_0.html");
+});
+$(function(){
+	$("#include-sc7_1_1_0").load("sctable_1_0.html");
+});
+$(function(){
+	$("#include-mg7_1_2_1").load("mgtable_2_1.html");
+});
+$(function(){
+	$("#include-sc7_1_2_1").load("sctable_2_1.html");
+});
+$(function(){
+	$("#include-mg7_1_3_1").load("mgtable_3_1.html");
+});
+$(function(){
+	$("#include-sc7_1_3_1").load("sctable_3_1.html");
+});
+$(function(){
+	$("#include-mg7_1_4_1").load("mgtable_4_1.html");
+});
+$(function(){
+	$("#include-sc7_1_4_1").load("sctable_4_1.html");
+});
+$(function(){
+	$("#include-mg7_1_5_1").load("mgtable_5_1.html");
+});
+$(function(){
+	$("#include-sc7_1_5_1").load("sctable_5_1.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti7_2").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg7_2_6_1").load("mgtable_6_1.html");
+});
+$(function(){
+	$("#include-sc7_2_6_1").load("sctable_6_1.html");
+});
+$(function(){
+	$("#include-mg7_2_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc7_2_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg7_2_1_0").load("mgtable_1_0.html");
+});
+$(function(){
+	$("#include-sc7_2_1_0").load("sctable_1_0.html");
+});
+$(function(){
+	$("#include-mg7_2_2_0").load("mgtable_2_0.html");
+});
+$(function(){
+	$("#include-sc7_2_2_0").load("sctable_2_0.html");
+});
+$(function(){
+	$("#include-mg7_2_3_1").load("mgtable_3_1.html");
+});
+$(function(){
+	$("#include-sc7_2_3_1").load("sctable_3_1.html");
+});
+$(function(){
+	$("#include-mg7_2_4_1").load("mgtable_4_1.html");
+});
+$(function(){
+	$("#include-sc7_2_4_1").load("sctable_4_1.html");
+});
+$(function(){
+	$("#include-mg7_2_5_1").load("mgtable_5_1.html");
+});
+$(function(){
+	$("#include-sc7_2_5_1").load("sctable_5_1.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti7_3").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg7_3_6_1").load("mgtable_6_1.html");
+});
+$(function(){
+	$("#include-sc7_3_6_1").load("sctable_6_1.html");
+});
+$(function(){
+	$("#include-mg7_3_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc7_3_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg7_3_1_0").load("mgtable_1_0.html");
+});
+$(function(){
+	$("#include-sc7_3_1_0").load("sctable_1_0.html");
+});
+$(function(){
+	$("#include-mg7_3_2_0").load("mgtable_2_0.html");
+});
+$(function(){
+	$("#include-sc7_3_2_0").load("sctable_2_0.html");
+});
+$(function(){
+	$("#include-mg7_3_3_0").load("mgtable_3_0.html");
+});
+$(function(){
+	$("#include-sc7_3_3_0").load("sctable_3_0.html");
+});
+$(function(){
+	$("#include-mg7_3_4_1").load("mgtable_4_1.html");
+});
+$(function(){
+	$("#include-sc7_3_4_1").load("sctable_4_1.html");
+});
+$(function(){
+	$("#include-mg7_3_5_1").load("mgtable_5_1.html");
+});
+$(function(){
+	$("#include-sc7_3_5_1").load("sctable_5_1.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti7_4").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg7_4_6_1").load("mgtable_6_1.html");
+});
+$(function(){
+	$("#include-sc7_4_6_1").load("sctable_6_1.html");
+});
+$(function(){
+	$("#include-mg7_4_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc7_4_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg7_4_1_0").load("mgtable_1_0.html");
+});
+$(function(){
+	$("#include-sc7_4_1_0").load("sctable_1_0.html");
+});
+$(function(){
+	$("#include-mg7_4_2_0").load("mgtable_2_0.html");
+});
+$(function(){
+	$("#include-sc7_4_2_0").load("sctable_2_0.html");
+});
+$(function(){
+	$("#include-mg7_4_3_0").load("mgtable_3_0.html");
+});
+$(function(){
+	$("#include-sc7_4_3_0").load("sctable_3_0.html");
+});
+$(function(){
+	$("#include-mg7_4_4_0").load("mgtable_4_0.html");
+});
+$(function(){
+	$("#include-sc7_4_4_0").load("sctable_4_0.html");
+});
+$(function(){
+	$("#include-mg7_4_5_1").load("mgtable_5_1.html");
+});
+$(function(){
+	$("#include-sc7_4_5_1").load("sctable_5_1.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti7_5").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg7_5_6_1").load("mgtable_6_1.html");
+});
+$(function(){
+	$("#include-sc7_5_6_1").load("sctable_6_1.html");
+});
+$(function(){
+	$("#include-mg7_5_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc7_5_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg7_5_1_0").load("mgtable_1_0.html");
+});
+$(function(){
+	$("#include-sc7_5_1_0").load("sctable_1_0.html");
+});
+$(function(){
+	$("#include-mg7_5_2_0").load("mgtable_2_0.html");
+});
+$(function(){
+	$("#include-sc7_5_2_0").load("sctable_2_0.html");
+});
+$(function(){
+	$("#include-mg7_5_3_0").load("mgtable_3_0.html");
+});
+$(function(){
+	$("#include-sc7_5_3_0").load("sctable_3_0.html");
+});
+$(function(){
+	$("#include-mg7_5_4_0").load("mgtable_4_0.html");
+});
+$(function(){
+	$("#include-sc7_5_4_0").load("sctable_4_0.html");
+});
+$(function(){
+	$("#include-mg7_5_5_0").load("mgtable_5_0.html");
+});
+$(function(){
+	$("#include-sc7_5_5_0").load("sctable_5_0.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti7_6").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg7_6_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc7_6_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg7_6_1_0").load("mgtable_1_0.html");
+});
+$(function(){
+	$("#include-sc7_6_1_0").load("sctable_1_0.html");
+});
+$(function(){
+	$("#include-mg7_6_2_0").load("mgtable_2_0.html");
+});
+$(function(){
+	$("#include-sc7_6_2_0").load("sctable_2_0.html");
+});
+$(function(){
+	$("#include-mg7_6_3_0").load("mgtable_3_0.html");
+});
+$(function(){
+	$("#include-sc7_6_3_0").load("sctable_3_0.html");
+});
+$(function(){
+	$("#include-mg7_6_4_0").load("mgtable_4_0.html");
+});
+$(function(){
+	$("#include-sc7_6_4_0").load("sctable_4_0.html");
+});
+$(function(){
+	$("#include-mg7_6_5_0").load("mgtable_5_0.html");
+});
+$(function(){
+	$("#include-sc7_6_5_0").load("sctable_5_0.html");
+});
+$(function(){
+	$("#include-mg7_6_6_0").load("mgtable_6_0.html");
+});
+$(function(){
+	$("#include-sc7_6_6_0").load("sctable_6_0.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti8_0").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg8_0_6_1").load("mgtable_6_1.html");
+});
+$(function(){
+	$("#include-sc8_0_6_1").load("sctable_6_1.html");
+});
+$(function(){
+	$("#include-mg8_0_7_1").load("mgtable_7_1.html");
+});
+$(function(){
+	$("#include-sc8_0_7_1").load("sctable_7_1.html");
+});
+$(function(){
+	$("#include-mg8_0_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc8_0_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg8_0_1_1").load("mgtable_1_1.html");
+});
+$(function(){
+	$("#include-sc8_0_1_1").load("sctable_1_1.html");
+});
+$(function(){
+	$("#include-mg8_0_2_1").load("mgtable_2_1.html");
+});
+$(function(){
+	$("#include-sc8_0_2_1").load("sctable_2_1.html");
+});
+$(function(){
+	$("#include-mg8_0_3_1").load("mgtable_3_1.html");
+});
+$(function(){
+	$("#include-sc8_0_3_1").load("sctable_3_1.html");
+});
+$(function(){
+	$("#include-mg8_0_4_1").load("mgtable_4_1.html");
+});
+$(function(){
+	$("#include-sc8_0_4_1").load("sctable_4_1.html");
+});
+$(function(){
+	$("#include-mg8_0_5_1").load("mgtable_5_1.html");
+});
+$(function(){
+	$("#include-sc8_0_5_1").load("sctable_5_1.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti8_1").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg8_1_6_1").load("mgtable_6_1.html");
+});
+$(function(){
+	$("#include-sc8_1_6_1").load("sctable_6_1.html");
+});
+$(function(){
+	$("#include-mg8_1_7_1").load("mgtable_7_1.html");
+});
+$(function(){
+	$("#include-sc8_1_7_1").load("sctable_7_1.html");
+});
+$(function(){
+	$("#include-mg8_1_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc8_1_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg8_1_1_0").load("mgtable_1_0.html");
+});
+$(function(){
+	$("#include-sc8_1_1_0").load("sctable_1_0.html");
+});
+$(function(){
+	$("#include-mg8_1_2_1").load("mgtable_2_1.html");
+});
+$(function(){
+	$("#include-sc8_1_2_1").load("sctable_2_1.html");
+});
+$(function(){
+	$("#include-mg8_1_3_1").load("mgtable_3_1.html");
+});
+$(function(){
+	$("#include-sc8_1_3_1").load("sctable_3_1.html");
+});
+$(function(){
+	$("#include-mg8_1_4_1").load("mgtable_4_1.html");
+});
+$(function(){
+	$("#include-sc8_1_4_1").load("sctable_4_1.html");
+});
+$(function(){
+	$("#include-mg8_1_5_1").load("mgtable_5_1.html");
+});
+$(function(){
+	$("#include-sc8_1_5_1").load("sctable_5_1.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti8_2").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg8_2_6_1").load("mgtable_6_1.html");
+});
+$(function(){
+	$("#include-sc8_2_6_1").load("sctable_6_1.html");
+});
+$(function(){
+	$("#include-mg8_2_7_1").load("mgtable_7_1.html");
+});
+$(function(){
+	$("#include-sc8_2_7_1").load("sctable_7_1.html");
+});
+$(function(){
+	$("#include-mg8_2_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc8_2_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg8_2_1_0").load("mgtable_1_0.html");
+});
+$(function(){
+	$("#include-sc8_2_1_0").load("sctable_1_0.html");
+});
+$(function(){
+	$("#include-mg8_2_2_0").load("mgtable_2_0.html");
+});
+$(function(){
+	$("#include-sc8_2_2_0").load("sctable_2_0.html");
+});
+$(function(){
+	$("#include-mg8_2_3_1").load("mgtable_3_1.html");
+});
+$(function(){
+	$("#include-sc8_2_3_1").load("sctable_3_1.html");
+});
+$(function(){
+	$("#include-mg8_2_4_1").load("mgtable_4_1.html");
+});
+$(function(){
+	$("#include-sc8_2_4_1").load("sctable_4_1.html");
+});
+$(function(){
+	$("#include-mg8_2_5_1").load("mgtable_5_1.html");
+});
+$(function(){
+	$("#include-sc8_2_5_1").load("sctable_5_1.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti8_3").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg8_3_6_1").load("mgtable_6_1.html");
+});
+$(function(){
+	$("#include-sc8_3_6_1").load("sctable_6_1.html");
+});
+$(function(){
+	$("#include-mg8_3_7_1").load("mgtable_7_1.html");
+});
+$(function(){
+	$("#include-sc8_3_7_1").load("sctable_7_1.html");
+});
+$(function(){
+	$("#include-mg8_3_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc8_3_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg8_3_1_0").load("mgtable_1_0.html");
+});
+$(function(){
+	$("#include-sc8_3_1_0").load("sctable_1_0.html");
+});
+$(function(){
+	$("#include-mg8_3_2_0").load("mgtable_2_0.html");
+});
+$(function(){
+	$("#include-sc8_3_2_0").load("sctable_2_0.html");
+});
+$(function(){
+	$("#include-mg8_3_3_0").load("mgtable_3_0.html");
+});
+$(function(){
+	$("#include-sc8_3_3_0").load("sctable_3_0.html");
+});
+$(function(){
+	$("#include-mg8_3_4_1").load("mgtable_4_1.html");
+});
+$(function(){
+	$("#include-sc8_3_4_1").load("sctable_4_1.html");
+});
+$(function(){
+	$("#include-mg8_3_5_1").load("mgtable_5_1.html");
+});
+$(function(){
+	$("#include-sc8_3_5_1").load("sctable_5_1.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti8_4").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg8_4_6_1").load("mgtable_6_1.html");
+});
+$(function(){
+	$("#include-sc8_4_6_1").load("sctable_6_1.html");
+});
+$(function(){
+	$("#include-mg8_4_7_1").load("mgtable_7_1.html");
+});
+$(function(){
+	$("#include-sc8_4_7_1").load("sctable_7_1.html");
+});
+$(function(){
+	$("#include-mg8_4_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc8_4_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg8_4_1_0").load("mgtable_1_0.html");
+});
+$(function(){
+	$("#include-sc8_4_1_0").load("sctable_1_0.html");
+});
+$(function(){
+	$("#include-mg8_4_2_0").load("mgtable_2_0.html");
+});
+$(function(){
+	$("#include-sc8_4_2_0").load("sctable_2_0.html");
+});
+$(function(){
+	$("#include-mg8_4_3_0").load("mgtable_3_0.html");
+});
+$(function(){
+	$("#include-sc8_4_3_0").load("sctable_3_0.html");
+});
+$(function(){
+	$("#include-mg8_4_4_0").load("mgtable_4_0.html");
+});
+$(function(){
+	$("#include-sc8_4_4_0").load("sctable_4_0.html");
+});
+$(function(){
+	$("#include-mg8_4_5_1").load("mgtable_5_1.html");
+});
+$(function(){
+	$("#include-sc8_4_5_1").load("sctable_5_1.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti8_5").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg8_5_6_1").load("mgtable_6_1.html");
+});
+$(function(){
+	$("#include-sc8_5_6_1").load("sctable_6_1.html");
+});
+$(function(){
+	$("#include-mg8_5_7_1").load("mgtable_7_1.html");
+});
+$(function(){
+	$("#include-sc8_5_7_1").load("sctable_7_1.html");
+});
+$(function(){
+	$("#include-mg8_5_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc8_5_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg8_5_1_0").load("mgtable_1_0.html");
+});
+$(function(){
+	$("#include-sc8_5_1_0").load("sctable_1_0.html");
+});
+$(function(){
+	$("#include-mg8_5_2_0").load("mgtable_2_0.html");
+});
+$(function(){
+	$("#include-sc8_5_2_0").load("sctable_2_0.html");
+});
+$(function(){
+	$("#include-mg8_5_3_0").load("mgtable_3_0.html");
+});
+$(function(){
+	$("#include-sc8_5_3_0").load("sctable_3_0.html");
+});
+$(function(){
+	$("#include-mg8_5_4_0").load("mgtable_4_0.html");
+});
+$(function(){
+	$("#include-sc8_5_4_0").load("sctable_4_0.html");
+});
+$(function(){
+	$("#include-mg8_5_5_0").load("mgtable_5_0.html");
+});
+$(function(){
+	$("#include-sc8_5_5_0").load("sctable_5_0.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti8_6").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg8_6_7_1").load("mgtable_7_1.html");
+});
+$(function(){
+	$("#include-sc8_6_7_1").load("sctable_7_1.html");
+});
+$(function(){
+	$("#include-mg8_6_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc8_6_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg8_6_1_0").load("mgtable_1_0.html");
+});
+$(function(){
+	$("#include-sc8_6_1_0").load("sctable_1_0.html");
+});
+$(function(){
+	$("#include-mg8_6_2_0").load("mgtable_2_0.html");
+});
+$(function(){
+	$("#include-sc8_6_2_0").load("sctable_2_0.html");
+});
+$(function(){
+	$("#include-mg8_6_3_0").load("mgtable_3_0.html");
+});
+$(function(){
+	$("#include-sc8_6_3_0").load("sctable_3_0.html");
+});
+$(function(){
+	$("#include-mg8_6_4_0").load("mgtable_4_0.html");
+});
+$(function(){
+	$("#include-sc8_6_4_0").load("sctable_4_0.html");
+});
+$(function(){
+	$("#include-mg8_6_5_0").load("mgtable_5_0.html");
+});
+$(function(){
+	$("#include-sc8_6_5_0").load("sctable_5_0.html");
+});
+$(function(){
+	$("#include-mg8_6_6_0").load("mgtable_6_0.html");
+});
+$(function(){
+	$("#include-sc8_6_6_0").load("sctable_6_0.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti8_7").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg8_7_7_0").load("mgtable_7_0.html");
+});
+$(function(){
+	$("#include-sc8_7_7_0").load("sctable_7_0.html");
+});
+$(function(){
+	$("#include-mg8_7_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc8_7_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg8_7_1_0").load("mgtable_1_0.html");
+});
+$(function(){
+	$("#include-sc8_7_1_0").load("sctable_1_0.html");
+});
+$(function(){
+	$("#include-mg8_7_2_0").load("mgtable_2_0.html");
+});
+$(function(){
+	$("#include-sc8_7_2_0").load("sctable_2_0.html");
+});
+$(function(){
+	$("#include-mg8_7_3_0").load("mgtable_3_0.html");
+});
+$(function(){
+	$("#include-sc8_7_3_0").load("sctable_3_0.html");
+});
+$(function(){
+	$("#include-mg8_7_4_0").load("mgtable_4_0.html");
+});
+$(function(){
+	$("#include-sc8_7_4_0").load("sctable_4_0.html");
+});
+$(function(){
+	$("#include-mg8_7_5_0").load("mgtable_5_0.html");
+});
+$(function(){
+	$("#include-sc8_7_5_0").load("sctable_5_0.html");
+});
+$(function(){
+	$("#include-mg8_7_6_0").load("mgtable_6_0.html");
+});
+$(function(){
+	$("#include-sc8_7_6_0").load("sctable_6_0.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti9_0").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg9_0_6_1").load("mgtable_6_1.html");
+});
+$(function(){
+	$("#include-sc9_0_6_1").load("sctable_6_1.html");
+});
+$(function(){
+	$("#include-mg9_0_7_1").load("mgtable_7_1.html");
+});
+$(function(){
+	$("#include-sc9_0_7_1").load("sctable_7_1.html");
+});
+$(function(){
+	$("#include-mg9_0_8_1").load("mgtable_8_1.html");
+});
+$(function(){
+	$("#include-sc9_0_8_1").load("sctable_8_1.html");
+});
+$(function(){
+	$("#include-mg9_0_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc9_0_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg9_0_1_1").load("mgtable_1_1.html");
+});
+$(function(){
+	$("#include-sc9_0_1_1").load("sctable_1_1.html");
+});
+$(function(){
+	$("#include-mg9_0_2_1").load("mgtable_2_1.html");
+});
+$(function(){
+	$("#include-sc9_0_2_1").load("sctable_2_1.html");
+});
+$(function(){
+	$("#include-mg9_0_3_1").load("mgtable_3_1.html");
+});
+$(function(){
+	$("#include-sc9_0_3_1").load("sctable_3_1.html");
+});
+$(function(){
+	$("#include-mg9_0_4_1").load("mgtable_4_1.html");
+});
+$(function(){
+	$("#include-sc9_0_4_1").load("sctable_4_1.html");
+});
+$(function(){
+	$("#include-mg9_0_5_1").load("mgtable_5_1.html");
+});
+$(function(){
+	$("#include-sc9_0_5_1").load("sctable_5_1.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti9_1").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg9_1_6_1").load("mgtable_6_1.html");
+});
+$(function(){
+	$("#include-sc9_1_6_1").load("sctable_6_1.html");
+});
+$(function(){
+	$("#include-mg9_1_7_1").load("mgtable_7_1.html");
+});
+$(function(){
+	$("#include-sc9_1_7_1").load("sctable_7_1.html");
+});
+$(function(){
+	$("#include-mg9_1_8_1").load("mgtable_8_1.html");
+});
+$(function(){
+	$("#include-sc9_1_8_1").load("sctable_8_1.html");
+});
+$(function(){
+	$("#include-mg9_1_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc9_1_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg9_1_1_0").load("mgtable_1_0.html");
+});
+$(function(){
+	$("#include-sc9_1_1_0").load("sctable_1_0.html");
+});
+$(function(){
+	$("#include-mg9_1_2_1").load("mgtable_2_1.html");
+});
+$(function(){
+	$("#include-sc9_1_2_1").load("sctable_2_1.html");
+});
+$(function(){
+	$("#include-mg9_1_3_1").load("mgtable_3_1.html");
+});
+$(function(){
+	$("#include-sc9_1_3_1").load("sctable_3_1.html");
+});
+$(function(){
+	$("#include-mg9_1_4_1").load("mgtable_4_1.html");
+});
+$(function(){
+	$("#include-sc9_1_4_1").load("sctable_4_1.html");
+});
+$(function(){
+	$("#include-mg9_1_5_1").load("mgtable_5_1.html");
+});
+$(function(){
+	$("#include-sc9_1_5_1").load("sctable_5_1.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti9_2").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg9_2_6_1").load("mgtable_6_1.html");
+});
+$(function(){
+	$("#include-sc9_2_6_1").load("sctable_6_1.html");
+});
+$(function(){
+	$("#include-mg9_2_7_1").load("mgtable_7_1.html");
+});
+$(function(){
+	$("#include-sc9_2_7_1").load("sctable_7_1.html");
+});
+$(function(){
+	$("#include-mg9_2_8_1").load("mgtable_8_1.html");
+});
+$(function(){
+	$("#include-sc9_2_8_1").load("sctable_8_1.html");
+});
+$(function(){
+	$("#include-mg9_2_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc9_2_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg9_2_1_0").load("mgtable_1_0.html");
+});
+$(function(){
+	$("#include-sc9_2_1_0").load("sctable_1_0.html");
+});
+$(function(){
+	$("#include-mg9_2_2_0").load("mgtable_2_0.html");
+});
+$(function(){
+	$("#include-sc9_2_2_0").load("sctable_2_0.html");
+});
+$(function(){
+	$("#include-mg9_2_3_1").load("mgtable_3_1.html");
+});
+$(function(){
+	$("#include-sc9_2_3_1").load("sctable_3_1.html");
+});
+$(function(){
+	$("#include-mg9_2_4_1").load("mgtable_4_1.html");
+});
+$(function(){
+	$("#include-sc9_2_4_1").load("sctable_4_1.html");
+});
+$(function(){
+	$("#include-mg9_2_5_1").load("mgtable_5_1.html");
+});
+$(function(){
+	$("#include-sc9_2_5_1").load("sctable_5_1.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti9_3").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg9_3_6_1").load("mgtable_6_1.html");
+});
+$(function(){
+	$("#include-sc9_3_6_1").load("sctable_6_1.html");
+});
+$(function(){
+	$("#include-mg9_3_7_1").load("mgtable_7_1.html");
+});
+$(function(){
+	$("#include-sc9_3_7_1").load("sctable_7_1.html");
+});
+$(function(){
+	$("#include-mg9_3_8_1").load("mgtable_8_1.html");
+});
+$(function(){
+	$("#include-sc9_3_8_1").load("sctable_8_1.html");
+});
+$(function(){
+	$("#include-mg9_3_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc9_3_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg9_3_1_0").load("mgtable_1_0.html");
+});
+$(function(){
+	$("#include-sc9_3_1_0").load("sctable_1_0.html");
+});
+$(function(){
+	$("#include-mg9_3_2_0").load("mgtable_2_0.html");
+});
+$(function(){
+	$("#include-sc9_3_2_0").load("sctable_2_0.html");
+});
+$(function(){
+	$("#include-mg9_3_3_0").load("mgtable_3_0.html");
+});
+$(function(){
+	$("#include-sc9_3_3_0").load("sctable_3_0.html");
+});
+$(function(){
+	$("#include-mg9_3_4_1").load("mgtable_4_1.html");
+});
+$(function(){
+	$("#include-sc9_3_4_1").load("sctable_4_1.html");
+});
+$(function(){
+	$("#include-mg9_3_5_1").load("mgtable_5_1.html");
+});
+$(function(){
+	$("#include-sc9_3_5_1").load("sctable_5_1.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti9_4").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg9_4_6_1").load("mgtable_6_1.html");
+});
+$(function(){
+	$("#include-sc9_4_6_1").load("sctable_6_1.html");
+});
+$(function(){
+	$("#include-mg9_4_7_1").load("mgtable_7_1.html");
+});
+$(function(){
+	$("#include-sc9_4_7_1").load("sctable_7_1.html");
+});
+$(function(){
+	$("#include-mg9_4_8_1").load("mgtable_8_1.html");
+});
+$(function(){
+	$("#include-sc9_4_8_1").load("sctable_8_1.html");
+});
+$(function(){
+	$("#include-mg9_4_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc9_4_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg9_4_1_0").load("mgtable_1_0.html");
+});
+$(function(){
+	$("#include-sc9_4_1_0").load("sctable_1_0.html");
+});
+$(function(){
+	$("#include-mg9_4_2_0").load("mgtable_2_0.html");
+});
+$(function(){
+	$("#include-sc9_4_2_0").load("sctable_2_0.html");
+});
+$(function(){
+	$("#include-mg9_4_3_0").load("mgtable_3_0.html");
+});
+$(function(){
+	$("#include-sc9_4_3_0").load("sctable_3_0.html");
+});
+$(function(){
+	$("#include-mg9_4_4_0").load("mgtable_4_0.html");
+});
+$(function(){
+	$("#include-sc9_4_4_0").load("sctable_4_0.html");
+});
+$(function(){
+	$("#include-mg9_4_5_1").load("mgtable_5_1.html");
+});
+$(function(){
+	$("#include-sc9_4_5_1").load("sctable_5_1.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti9_5").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg9_5_6_1").load("mgtable_6_1.html");
+});
+$(function(){
+	$("#include-sc9_5_6_1").load("sctable_6_1.html");
+});
+$(function(){
+	$("#include-mg9_5_7_1").load("mgtable_7_1.html");
+});
+$(function(){
+	$("#include-sc9_5_7_1").load("sctable_7_1.html");
+});
+$(function(){
+	$("#include-mg9_5_8_1").load("mgtable_8_1.html");
+});
+$(function(){
+	$("#include-sc9_5_8_1").load("sctable_8_1.html");
+});
+$(function(){
+	$("#include-mg9_5_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc9_5_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg9_5_1_0").load("mgtable_1_0.html");
+});
+$(function(){
+	$("#include-sc9_5_1_0").load("sctable_1_0.html");
+});
+$(function(){
+	$("#include-mg9_5_2_0").load("mgtable_2_0.html");
+});
+$(function(){
+	$("#include-sc9_5_2_0").load("sctable_2_0.html");
+});
+$(function(){
+	$("#include-mg9_5_3_0").load("mgtable_3_0.html");
+});
+$(function(){
+	$("#include-sc9_5_3_0").load("sctable_3_0.html");
+});
+$(function(){
+	$("#include-mg9_5_4_0").load("mgtable_4_0.html");
+});
+$(function(){
+	$("#include-sc9_5_4_0").load("sctable_4_0.html");
+});
+$(function(){
+	$("#include-mg9_5_5_0").load("mgtable_5_0.html");
+});
+$(function(){
+	$("#include-sc9_5_5_0").load("sctable_5_0.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti9_6").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg9_6_7_1").load("mgtable_7_1.html");
+});
+$(function(){
+	$("#include-sc9_6_7_1").load("sctable_7_1.html");
+});
+$(function(){
+	$("#include-mg9_6_8_1").load("mgtable_8_1.html");
+});
+$(function(){
+	$("#include-sc9_6_8_1").load("sctable_8_1.html");
+});
+$(function(){
+	$("#include-mg9_6_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc9_6_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg9_6_1_0").load("mgtable_1_0.html");
+});
+$(function(){
+	$("#include-sc9_6_1_0").load("sctable_1_0.html");
+});
+$(function(){
+	$("#include-mg9_6_2_0").load("mgtable_2_0.html");
+});
+$(function(){
+	$("#include-sc9_6_2_0").load("sctable_2_0.html");
+});
+$(function(){
+	$("#include-mg9_6_3_0").load("mgtable_3_0.html");
+});
+$(function(){
+	$("#include-sc9_6_3_0").load("sctable_3_0.html");
+});
+$(function(){
+	$("#include-mg9_6_4_0").load("mgtable_4_0.html");
+});
+$(function(){
+	$("#include-sc9_6_4_0").load("sctable_4_0.html");
+});
+$(function(){
+	$("#include-mg9_6_5_0").load("mgtable_5_0.html");
+});
+$(function(){
+	$("#include-sc9_6_5_0").load("sctable_5_0.html");
+});
+$(function(){
+	$("#include-mg9_6_6_0").load("mgtable_6_0.html");
+});
+$(function(){
+	$("#include-sc9_6_6_0").load("sctable_6_0.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti9_7").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg9_7_7_0").load("mgtable_7_0.html");
+});
+$(function(){
+	$("#include-sc9_7_7_0").load("sctable_7_0.html");
+});
+$(function(){
+	$("#include-mg9_7_8_1").load("mgtable_8_1.html");
+});
+$(function(){
+	$("#include-sc9_7_8_1").load("sctable_8_1.html");
+});
+$(function(){
+	$("#include-mg9_7_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc9_7_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg9_7_1_0").load("mgtable_1_0.html");
+});
+$(function(){
+	$("#include-sc9_7_1_0").load("sctable_1_0.html");
+});
+$(function(){
+	$("#include-mg9_7_2_0").load("mgtable_2_0.html");
+});
+$(function(){
+	$("#include-sc9_7_2_0").load("sctable_2_0.html");
+});
+$(function(){
+	$("#include-mg9_7_3_0").load("mgtable_3_0.html");
+});
+$(function(){
+	$("#include-sc9_7_3_0").load("sctable_3_0.html");
+});
+$(function(){
+	$("#include-mg9_7_4_0").load("mgtable_4_0.html");
+});
+$(function(){
+	$("#include-sc9_7_4_0").load("sctable_4_0.html");
+});
+$(function(){
+	$("#include-mg9_7_5_0").load("mgtable_5_0.html");
+});
+$(function(){
+	$("#include-sc9_7_5_0").load("sctable_5_0.html");
+});
+$(function(){
+	$("#include-mg9_7_6_0").load("mgtable_6_0.html");
+});
+$(function(){
+	$("#include-sc9_7_6_0").load("sctable_6_0.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti9_8").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg9_8_7_0").load("mgtable_7_0.html");
+});
+$(function(){
+	$("#include-sc9_8_7_0").load("sctable_7_0.html");
+});
+$(function(){
+	$("#include-mg9_8_8_0").load("mgtable_8_0.html");
+});
+$(function(){
+	$("#include-sc9_8_8_0").load("sctable_8_0.html");
+});
+$(function(){
+	$("#include-mg9_8_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc9_8_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg9_8_1_0").load("mgtable_1_0.html");
+});
+$(function(){
+	$("#include-sc9_8_1_0").load("sctable_1_0.html");
+});
+$(function(){
+	$("#include-mg9_8_2_0").load("mgtable_2_0.html");
+});
+$(function(){
+	$("#include-sc9_8_2_0").load("sctable_2_0.html");
+});
+$(function(){
+	$("#include-mg9_8_3_0").load("mgtable_3_0.html");
+});
+$(function(){
+	$("#include-sc9_8_3_0").load("sctable_3_0.html");
+});
+$(function(){
+	$("#include-mg9_8_4_0").load("mgtable_4_0.html");
+});
+$(function(){
+	$("#include-sc9_8_4_0").load("sctable_4_0.html");
+});
+$(function(){
+	$("#include-mg9_8_5_0").load("mgtable_5_0.html");
+});
+$(function(){
+	$("#include-sc9_8_5_0").load("sctable_5_0.html");
+});
+$(function(){
+	$("#include-mg9_8_6_0").load("mgtable_6_0.html");
+});
+$(function(){
+	$("#include-sc9_8_6_0").load("sctable_6_0.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti10_0").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg10_0_6_1").load("mgtable_6_1.html");
+});
+$(function(){
+	$("#include-sc10_0_6_1").load("sctable_6_1.html");
+});
+$(function(){
+	$("#include-mg10_0_7_1").load("mgtable_7_1.html");
+});
+$(function(){
+	$("#include-sc10_0_7_1").load("sctable_7_1.html");
+});
+$(function(){
+	$("#include-mg10_0_8_1").load("mgtable_8_1.html");
+});
+$(function(){
+	$("#include-sc10_0_8_1").load("sctable_8_1.html");
+});
+$(function(){
+	$("#include-mg10_0_9_1").load("mgtable_9_1.html");
+});
+$(function(){
+	$("#include-sc10_0_9_1").load("sctable_9_1.html");
+});
+$(function(){
+	$("#include-mg10_0_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc10_0_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg10_0_1_1").load("mgtable_1_1.html");
+});
+$(function(){
+	$("#include-sc10_0_1_1").load("sctable_1_1.html");
+});
+$(function(){
+	$("#include-mg10_0_2_1").load("mgtable_2_1.html");
+});
+$(function(){
+	$("#include-sc10_0_2_1").load("sctable_2_1.html");
+});
+$(function(){
+	$("#include-mg10_0_3_1").load("mgtable_3_1.html");
+});
+$(function(){
+	$("#include-sc10_0_3_1").load("sctable_3_1.html");
+});
+$(function(){
+	$("#include-mg10_0_4_1").load("mgtable_4_1.html");
+});
+$(function(){
+	$("#include-sc10_0_4_1").load("sctable_4_1.html");
+});
+$(function(){
+	$("#include-mg10_0_5_1").load("mgtable_5_1.html");
+});
+$(function(){
+	$("#include-sc10_0_5_1").load("sctable_5_1.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti10_1").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg10_1_6_1").load("mgtable_6_1.html");
+});
+$(function(){
+	$("#include-sc10_1_6_1").load("sctable_6_1.html");
+});
+$(function(){
+	$("#include-mg10_1_7_1").load("mgtable_7_1.html");
+});
+$(function(){
+	$("#include-sc10_1_7_1").load("sctable_7_1.html");
+});
+$(function(){
+	$("#include-mg10_1_8_1").load("mgtable_8_1.html");
+});
+$(function(){
+	$("#include-sc10_1_8_1").load("sctable_8_1.html");
+});
+$(function(){
+	$("#include-mg10_1_9_1").load("mgtable_9_1.html");
+});
+$(function(){
+	$("#include-sc10_1_9_1").load("sctable_9_1.html");
+});
+$(function(){
+	$("#include-mg10_1_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc10_1_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg10_1_1_0").load("mgtable_1_0.html");
+});
+$(function(){
+	$("#include-sc10_1_1_0").load("sctable_1_0.html");
+});
+$(function(){
+	$("#include-mg10_1_2_1").load("mgtable_2_1.html");
+});
+$(function(){
+	$("#include-sc10_1_2_1").load("sctable_2_1.html");
+});
+$(function(){
+	$("#include-mg10_1_3_1").load("mgtable_3_1.html");
+});
+$(function(){
+	$("#include-sc10_1_3_1").load("sctable_3_1.html");
+});
+$(function(){
+	$("#include-mg10_1_4_1").load("mgtable_4_1.html");
+});
+$(function(){
+	$("#include-sc10_1_4_1").load("sctable_4_1.html");
+});
+$(function(){
+	$("#include-mg10_1_5_1").load("mgtable_5_1.html");
+});
+$(function(){
+	$("#include-sc10_1_5_1").load("sctable_5_1.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti10_2").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg10_2_6_1").load("mgtable_6_1.html");
+});
+$(function(){
+	$("#include-sc10_2_6_1").load("sctable_6_1.html");
+});
+$(function(){
+	$("#include-mg10_2_7_1").load("mgtable_7_1.html");
+});
+$(function(){
+	$("#include-sc10_2_7_1").load("sctable_7_1.html");
+});
+$(function(){
+	$("#include-mg10_2_8_1").load("mgtable_8_1.html");
+});
+$(function(){
+	$("#include-sc10_2_8_1").load("sctable_8_1.html");
+});
+$(function(){
+	$("#include-mg10_2_9_1").load("mgtable_9_1.html");
+});
+$(function(){
+	$("#include-sc10_2_9_1").load("sctable_9_1.html");
+});
+$(function(){
+	$("#include-mg10_2_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc10_2_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg10_2_1_0").load("mgtable_1_0.html");
+});
+$(function(){
+	$("#include-sc10_2_1_0").load("sctable_1_0.html");
+});
+$(function(){
+	$("#include-mg10_2_2_0").load("mgtable_2_0.html");
+});
+$(function(){
+	$("#include-sc10_2_2_0").load("sctable_2_0.html");
+});
+$(function(){
+	$("#include-mg10_2_3_1").load("mgtable_3_1.html");
+});
+$(function(){
+	$("#include-sc10_2_3_1").load("sctable_3_1.html");
+});
+$(function(){
+	$("#include-mg10_2_4_1").load("mgtable_4_1.html");
+});
+$(function(){
+	$("#include-sc10_2_4_1").load("sctable_4_1.html");
+});
+$(function(){
+	$("#include-mg10_2_5_1").load("mgtable_5_1.html");
+});
+$(function(){
+	$("#include-sc10_2_5_1").load("sctable_5_1.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti10_3").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg10_3_6_1").load("mgtable_6_1.html");
+});
+$(function(){
+	$("#include-sc10_3_6_1").load("sctable_6_1.html");
+});
+$(function(){
+	$("#include-mg10_3_7_1").load("mgtable_7_1.html");
+});
+$(function(){
+	$("#include-sc10_3_7_1").load("sctable_7_1.html");
+});
+$(function(){
+	$("#include-mg10_3_8_1").load("mgtable_8_1.html");
+});
+$(function(){
+	$("#include-sc10_3_8_1").load("sctable_8_1.html");
+});
+$(function(){
+	$("#include-mg10_3_9_1").load("mgtable_9_1.html");
+});
+$(function(){
+	$("#include-sc10_3_9_1").load("sctable_9_1.html");
+});
+$(function(){
+	$("#include-mg10_3_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc10_3_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg10_3_1_0").load("mgtable_1_0.html");
+});
+$(function(){
+	$("#include-sc10_3_1_0").load("sctable_1_0.html");
+});
+$(function(){
+	$("#include-mg10_3_2_0").load("mgtable_2_0.html");
+});
+$(function(){
+	$("#include-sc10_3_2_0").load("sctable_2_0.html");
+});
+$(function(){
+	$("#include-mg10_3_3_0").load("mgtable_3_0.html");
+});
+$(function(){
+	$("#include-sc10_3_3_0").load("sctable_3_0.html");
+});
+$(function(){
+	$("#include-mg10_3_4_1").load("mgtable_4_1.html");
+});
+$(function(){
+	$("#include-sc10_3_4_1").load("sctable_4_1.html");
+});
+$(function(){
+	$("#include-mg10_3_5_1").load("mgtable_5_1.html");
+});
+$(function(){
+	$("#include-sc10_3_5_1").load("sctable_5_1.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti10_4").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg10_4_6_1").load("mgtable_6_1.html");
+});
+$(function(){
+	$("#include-sc10_4_6_1").load("sctable_6_1.html");
+});
+$(function(){
+	$("#include-mg10_4_7_1").load("mgtable_7_1.html");
+});
+$(function(){
+	$("#include-sc10_4_7_1").load("sctable_7_1.html");
+});
+$(function(){
+	$("#include-mg10_4_8_1").load("mgtable_8_1.html");
+});
+$(function(){
+	$("#include-sc10_4_8_1").load("sctable_8_1.html");
+});
+$(function(){
+	$("#include-mg10_4_9_1").load("mgtable_9_1.html");
+});
+$(function(){
+	$("#include-sc10_4_9_1").load("sctable_9_1.html");
+});
+$(function(){
+	$("#include-mg10_4_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc10_4_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg10_4_1_0").load("mgtable_1_0.html");
+});
+$(function(){
+	$("#include-sc10_4_1_0").load("sctable_1_0.html");
+});
+$(function(){
+	$("#include-mg10_4_2_0").load("mgtable_2_0.html");
+});
+$(function(){
+	$("#include-sc10_4_2_0").load("sctable_2_0.html");
+});
+$(function(){
+	$("#include-mg10_4_3_0").load("mgtable_3_0.html");
+});
+$(function(){
+	$("#include-sc10_4_3_0").load("sctable_3_0.html");
+});
+$(function(){
+	$("#include-mg10_4_4_0").load("mgtable_4_0.html");
+});
+$(function(){
+	$("#include-sc10_4_4_0").load("sctable_4_0.html");
+});
+$(function(){
+	$("#include-mg10_4_5_1").load("mgtable_5_1.html");
+});
+$(function(){
+	$("#include-sc10_4_5_1").load("sctable_5_1.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti10_5").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg10_5_6_1").load("mgtable_6_1.html");
+});
+$(function(){
+	$("#include-sc10_5_6_1").load("sctable_6_1.html");
+});
+$(function(){
+	$("#include-mg10_5_7_1").load("mgtable_7_1.html");
+});
+$(function(){
+	$("#include-sc10_5_7_1").load("sctable_7_1.html");
+});
+$(function(){
+	$("#include-mg10_5_8_1").load("mgtable_8_1.html");
+});
+$(function(){
+	$("#include-sc10_5_8_1").load("sctable_8_1.html");
+});
+$(function(){
+	$("#include-mg10_5_9_1").load("mgtable_9_1.html");
+});
+$(function(){
+	$("#include-sc10_5_9_1").load("sctable_9_1.html");
+});
+$(function(){
+	$("#include-mg10_5_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc10_5_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg10_5_1_0").load("mgtable_1_0.html");
+});
+$(function(){
+	$("#include-sc10_5_1_0").load("sctable_1_0.html");
+});
+$(function(){
+	$("#include-mg10_5_2_0").load("mgtable_2_0.html");
+});
+$(function(){
+	$("#include-sc10_5_2_0").load("sctable_2_0.html");
+});
+$(function(){
+	$("#include-mg10_5_3_0").load("mgtable_3_0.html");
+});
+$(function(){
+	$("#include-sc10_5_3_0").load("sctable_3_0.html");
+});
+$(function(){
+	$("#include-mg10_5_4_0").load("mgtable_4_0.html");
+});
+$(function(){
+	$("#include-sc10_5_4_0").load("sctable_4_0.html");
+});
+$(function(){
+	$("#include-mg10_5_5_0").load("mgtable_5_0.html");
+});
+$(function(){
+	$("#include-sc10_5_5_0").load("sctable_5_0.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti10_6").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg10_6_7_1").load("mgtable_7_1.html");
+});
+$(function(){
+	$("#include-sc10_6_7_1").load("sctable_7_1.html");
+});
+$(function(){
+	$("#include-mg10_6_8_1").load("mgtable_8_1.html");
+});
+$(function(){
+	$("#include-sc10_6_8_1").load("sctable_8_1.html");
+});
+$(function(){
+	$("#include-mg10_6_9_1").load("mgtable_9_1.html");
+});
+$(function(){
+	$("#include-sc10_6_9_1").load("sctable_9_1.html");
+});
+$(function(){
+	$("#include-mg10_6_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc10_6_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg10_6_1_0").load("mgtable_1_0.html");
+});
+$(function(){
+	$("#include-sc10_6_1_0").load("sctable_1_0.html");
+});
+$(function(){
+	$("#include-mg10_6_2_0").load("mgtable_2_0.html");
+});
+$(function(){
+	$("#include-sc10_6_2_0").load("sctable_2_0.html");
+});
+$(function(){
+	$("#include-mg10_6_3_0").load("mgtable_3_0.html");
+});
+$(function(){
+	$("#include-sc10_6_3_0").load("sctable_3_0.html");
+});
+$(function(){
+	$("#include-mg10_6_4_0").load("mgtable_4_0.html");
+});
+$(function(){
+	$("#include-sc10_6_4_0").load("sctable_4_0.html");
+});
+$(function(){
+	$("#include-mg10_6_5_0").load("mgtable_5_0.html");
+});
+$(function(){
+	$("#include-sc10_6_5_0").load("sctable_5_0.html");
+});
+$(function(){
+	$("#include-mg10_6_6_0").load("mgtable_6_0.html");
+});
+$(function(){
+	$("#include-sc10_6_6_0").load("sctable_6_0.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti10_7").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg10_7_7_0").load("mgtable_7_0.html");
+});
+$(function(){
+	$("#include-sc10_7_7_0").load("sctable_7_0.html");
+});
+$(function(){
+	$("#include-mg10_7_8_1").load("mgtable_8_1.html");
+});
+$(function(){
+	$("#include-sc10_7_8_1").load("sctable_8_1.html");
+});
+$(function(){
+	$("#include-mg10_7_9_1").load("mgtable_9_1.html");
+});
+$(function(){
+	$("#include-sc10_7_9_1").load("sctable_9_1.html");
+});
+$(function(){
+	$("#include-mg10_7_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc10_7_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg10_7_1_0").load("mgtable_1_0.html");
+});
+$(function(){
+	$("#include-sc10_7_1_0").load("sctable_1_0.html");
+});
+$(function(){
+	$("#include-mg10_7_2_0").load("mgtable_2_0.html");
+});
+$(function(){
+	$("#include-sc10_7_2_0").load("sctable_2_0.html");
+});
+$(function(){
+	$("#include-mg10_7_3_0").load("mgtable_3_0.html");
+});
+$(function(){
+	$("#include-sc10_7_3_0").load("sctable_3_0.html");
+});
+$(function(){
+	$("#include-mg10_7_4_0").load("mgtable_4_0.html");
+});
+$(function(){
+	$("#include-sc10_7_4_0").load("sctable_4_0.html");
+});
+$(function(){
+	$("#include-mg10_7_5_0").load("mgtable_5_0.html");
+});
+$(function(){
+	$("#include-sc10_7_5_0").load("sctable_5_0.html");
+});
+$(function(){
+	$("#include-mg10_7_6_0").load("mgtable_6_0.html");
+});
+$(function(){
+	$("#include-sc10_7_6_0").load("sctable_6_0.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti10_8").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg10_8_7_0").load("mgtable_7_0.html");
+});
+$(function(){
+	$("#include-sc10_8_7_0").load("sctable_7_0.html");
+});
+$(function(){
+	$("#include-mg10_8_8_0").load("mgtable_8_0.html");
+});
+$(function(){
+	$("#include-sc10_8_8_0").load("sctable_8_0.html");
+});
+$(function(){
+	$("#include-mg10_8_9_1").load("mgtable_9_1.html");
+});
+$(function(){
+	$("#include-sc10_8_9_1").load("sctable_9_1.html");
+});
+$(function(){
+	$("#include-mg10_8_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc10_8_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg10_8_1_0").load("mgtable_1_0.html");
+});
+$(function(){
+	$("#include-sc10_8_1_0").load("sctable_1_0.html");
+});
+$(function(){
+	$("#include-mg10_8_2_0").load("mgtable_2_0.html");
+});
+$(function(){
+	$("#include-sc10_8_2_0").load("sctable_2_0.html");
+});
+$(function(){
+	$("#include-mg10_8_3_0").load("mgtable_3_0.html");
+});
+$(function(){
+	$("#include-sc10_8_3_0").load("sctable_3_0.html");
+});
+$(function(){
+	$("#include-mg10_8_4_0").load("mgtable_4_0.html");
+});
+$(function(){
+	$("#include-sc10_8_4_0").load("sctable_4_0.html");
+});
+$(function(){
+	$("#include-mg10_8_5_0").load("mgtable_5_0.html");
+});
+$(function(){
+	$("#include-sc10_8_5_0").load("sctable_5_0.html");
+});
+$(function(){
+	$("#include-mg10_8_6_0").load("mgtable_6_0.html");
+});
+$(function(){
+	$("#include-sc10_8_6_0").load("sctable_6_0.html");
+});
+$(function(){
+	$("#include-navbar").load("navbar/navbar.html");
+});
+
+$(function(){
+	$("#include-betti10_9").load("betti.html");
+});
+
+$(function(){
+	$("#include-mg10_9_7_0").load("mgtable_7_0.html");
+});
+$(function(){
+	$("#include-sc10_9_7_0").load("sctable_7_0.html");
+});
+$(function(){
+	$("#include-mg10_9_8_0").load("mgtable_8_0.html");
+});
+$(function(){
+	$("#include-sc10_9_8_0").load("sctable_8_0.html");
+});
+$(function(){
+	$("#include-mg10_9_9_0").load("mgtable_9_0.html");
+});
+$(function(){
+	$("#include-sc10_9_9_0").load("sctable_9_0.html");
+});
+$(function(){
+	$("#include-mg10_9_0_0").load("mgtable_0_0.html");
+});
+$(function(){
+	$("#include-sc10_9_0_0").load("sctable_0_0.html");
+});
+$(function(){
+	$("#include-mg10_9_1_0").load("mgtable_1_0.html");
+});
+$(function(){
+	$("#include-sc10_9_1_0").load("sctable_1_0.html");
+});
+$(function(){
+	$("#include-mg10_9_2_0").load("mgtable_2_0.html");
+});
+$(function(){
+	$("#include-sc10_9_2_0").load("sctable_2_0.html");
+});
+$(function(){
+	$("#include-mg10_9_3_0").load("mgtable_3_0.html");
+});
+$(function(){
+	$("#include-sc10_9_3_0").load("sctable_3_0.html");
+});
+$(function(){
+	$("#include-mg10_9_4_0").load("mgtable_4_0.html");
+});
+$(function(){
+	$("#include-sc10_9_4_0").load("sctable_4_0.html");
+});
+$(function(){
+	$("#include-mg10_9_5_0").load("mgtable_5_0.html");
+});
+$(function(){
+	$("#include-sc10_9_5_0").load("sctable_5_0.html");
+});
+$(function(){
+	$("#include-mg10_9_6_0").load("mgtable_6_0.html");
+});
+$(function(){
+	$("#include-sc10_9_6_0").load("sctable_6_0.html");
+});

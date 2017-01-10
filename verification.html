@@ -1,0 +1,84 @@
+<!DOCTYPE html> 
+<html>
+
+<head> 
+	<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+	<title>NumVer - Verification</title> 
+</head>
+
+<body>
+
+<div id="include-navbar"></div>
+	
+<div class="overview">
+		<p>
+As noted elsewhere our reliance on numerical linear algebra means our computations cannot be 
+certified to be 100% precise, and there is always room for error. In particular, we cannot be sure that 
+the Betti numbers we compute are the true Betti numbers and not simply an approximation. Thus, 
+whenever possible we work to verify our computations in various ways. Throughout 
+the codes Rk-V, Gb-V, MgGb-V, etc. refer to the following verification methods.
+
+<br><br>
+
+<b>Rk-V. Rank Verification.</b> This means we have checked our rank computations using MatLab's 
+standard dense rank algorithm rank(A), and the results agree up to machine precision with our
+methods. This helps ensure our QR and LU factorization algorithms are working as intended. (Note: Due to the
+massive performance decrease experienced when using dense algorithms this verification is only possible on the smallest 
+of examples.)
+
+<br><br>
+
+<b>Gb-V. Grobner Verification.</b> This means the Betti table has been
+computed using Macuaaly2's symbolic Gr&ouml;bener basis algorthims and it agrees with our results.
+
+<br><br>
+
+<b>MgGb-V. Multi-graded Grobner Verification.</b> This means the multi-graded Betti numbers for this table/entry have been
+compute using Macuaaly2's symbolic Gr&ouml;bener basis algorthims and it agrees with our results.
+
+<br><br>
+
+<b>Com-V. Computational Verification.</b> This means our results have been compared to and agrees with one of the results 
+via one of the computational results listed below.
+<ul>
+	<li>
+	<b>[CCDL].</b> In their paper [1], Castryck, Cools, Demeyer, and Lemmens, use similar methods to compute
+	the Betti table of various Veronese embeddings (n=2, d=2,3,4,5,6, b=0). One of the largest differences between our approaches is
+	that they work of large finite fields, and use finite field algorithms to compute ranks. 
+	</li>
+	
+	<li>
+	<b>[GM].</b> In their paper [6], Greco and Martino relate the Betti 
+	numbers of Veronese embeddings to the reduced homology certain simplicial complexes. The authors implement 
+	ways to compute the reduced homology of these simiplical complexes, allowing them to compute the Betti table
+	of various Veronese embeddings (n=2, d=4,5).
+	</li>
+</ul>
+
+<br><br>
+	
+<b>Th-V. Theoretical Verification.</b>	This means our result has been compared to and agrees with one of the theoretical results listed below:
+<ul>
+	<li>
+	<b>[Cor. 6.2, Eis05].</b> A basic result in the theory of free resolutions is that the minimal free resolution 
+	of the rational normal is an Eagon-Northcott complex. This complete characterizes the Betti numbers of all
+	all Veronese embeddings of the projective line. Corollary 6.2 can be generalized to characterize the multigraded Betti 
+	numbers and Schur functions for all Veronese embeddings (and their twists) of the projective line.
+	</li>
+	
+	<li>
+	<b>[Lem].</b> In their paper [68], Lemmens provides an explicit formula for the first non-zero
+	entry of the nth row of the Betti table of the Veronese embedding of projective n-space.
+	</li>
+</ul>	
+		
+</p>
+</div>
+	
+
+
+</body> 
+</html>
