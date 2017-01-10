@@ -1,6 +1,8 @@
 $(function(){
-	$("#include-navbar").load("navbar/navbar.html");
+	$("#include-navbar").load("https://djbruce.github.io/numver/navbar");
 });
+
+
 
 var tableA = document.getElementById("tableA");
 var tableB = document.getElementById("tableB");
