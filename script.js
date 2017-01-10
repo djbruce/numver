@@ -5,7 +5,7 @@ It is used on the following pages: thanks.html, references.html, authors.html, v
 index.html,
  */
 $(function(){
-      $("#include-navbar").load("navbar/navbar.html"); 
+      $("#include-navbar").load("navbar.html"); 
     });
 
 var tableA = document.getElementById("tableA");
