@@ -271,13 +271,13 @@ This is used in the multideg tables on the entry pages.
 }
 
 /* 
-This is used on the P1.html, P2.html, and P3.html pages.
+This is used on the P1.html, P2.html, and P3.html
  */
 .nav-table{
 	overflow-x:scroll;
 	width: 900px;
 	display:inline-block;
-	margin-left:100em;
+	margin-left:7em;
 	padding:2em;
 	margin-top:-1em;
 }
