@@ -271,6 +271,19 @@ This is used in the multideg tables on the entry pages.
 }
 
 /* 
+This is used on the P1.html, P2.html, and P3.html pages.
+ */
+.nav-table{
+	overflow-x:scroll;
+	width: 900px;
+	display:inline-block;
+	margin-left:7em;
+	padding:2em;
+	margin-top:-1em;
+}
+
+
+/* 
 This is used in the information boxes on all pages with a betti table.
  */
 .quickview-div{
