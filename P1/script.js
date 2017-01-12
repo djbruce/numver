@@ -1,6 +1,8 @@
-	$("#include-navbar").load("https://djbruce.github.io/numver/navbar.html");$(function(){
-
+$(function(){
+	$("#include-navbar").load("https://djbruce.github.io/numver/navbar");
 });
+
+
 
 var tableA = document.getElementById("tableA");
 var tableB = document.getElementById("tableB");
@@ -25,7 +27,6 @@ btnTabC.onclick = function () {
     tableB.style.display = "none";
     tableC.style.display = "table";
 }
-
 
 $(function(){
 	$("#include-betti1_0").load("https://djbruce.github.io/numver/1_0/betti.html");
