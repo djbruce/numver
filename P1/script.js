@@ -1,5 +1,3 @@
-window.addEventListener('load',Loaded,false);
-
 $(function(){
 	$("#include-navbar").load("https://djbruce.github.io/numver/navbar");
 });
