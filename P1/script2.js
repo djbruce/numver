@@ -1,3 +1,4 @@
+
 var tableA = document.getElementById("tableA");
 var tableB = document.getElementById("tableB");
 var tableC = document.getElementById("tableC");
@@ -11,11 +12,13 @@ btnTabA.onclick = function () {
     tableB.style.display = "none";
     tableC.style.display = "none";
 }
+
 btnTabB.onclick = function () {
     tableA.style.display = "none";
     tableB.style.display = "table";
     tableC.style.display = "none";
 }
+
 btnTabC.onclick = function () {
     tableA.style.display = "none";
     tableB.style.display = "none";
