@@ -186,7 +186,6 @@ This is used to contain the multideg heatmap on the entry pages.
 .mg-heat-map-container{
 	width: 700px;
 	height: auto;
-	position:absolute;
 	margin-left:20em;
 	margin-top:1em;
 
@@ -348,7 +347,6 @@ This is used to contain the schur heatmaps.
 .schur-heat-map-container{
 	width: 700px;
 	height: auto;
-	position:absolute;
 	margin-left:20em;
 	margin-top:1em;
 
