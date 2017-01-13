@@ -1,14 +1,14 @@
 /* 
 This is used to store the betti tables on all pages with a betti table.
  */
-.betti-div{
+.betti_div{
 	overflow-x:scroll;
 	width: 900px;
 	display:inline-block;
-	/* position:absolute; */
+	position:absolute;
 	margin-left:2em;
 	padding:1.5em;
-	margin-top:12em;
+	margin-top:10em;
 }
 
 /* 
@@ -186,6 +186,7 @@ This is used to contain the multideg heatmap on the entry pages.
 .mg-heat-map-container{
 	width: 700px;
 	height: auto;
+	position:absolute;
 	margin-left:20em;
 	margin-top:1em;
 
@@ -204,10 +205,11 @@ This is used to contain the multideg section on the entry pages.
 	font-family: 'Merriweather', serif;
     font-size:16px;
     width:1000px;
+	display:inline-block;
 	margin-left:3em;
 	margin-right:2em;
-	margin-top:27em;
-	
+	margin-top:23em;
+	padding-top:2em;
     }
     
 /* 
@@ -216,7 +218,7 @@ This is used to contain the multideg section on the entry pages.
 .multideg-div{
 	overflow-y:scroll;
 	height: 600px;
-	
+	display:inline-block;
 	float:left;
 	margin-left:1em;
 	padding:2em;
@@ -324,22 +326,12 @@ This is used for the schur section on the entry pages.
 	font-family: 'Merriweather', serif;
     font-size:16px;
     width:1000px;
+	display:inline-block;
 	margin-left:3em;
 	margin-right:2em;
-	margin-top:5em;
+	margin-top:23em;
 	padding-top:2em;
     }
-
-.schur-div{
-	overflow-y:scroll;
-	height: 600px;
-	
-	float:left;
-	margin-left:1em;
-	padding:2em;
-	margin-top:3em;
-	height: 400px;
-}
 
 /* 
 This is used to contain the schur heatmaps.
@@ -347,6 +339,7 @@ This is used to contain the schur heatmaps.
 .schur-heat-map-container{
 	width: 700px;
 	height: auto;
+	position:absolute;
 	margin-left:20em;
 	margin-top:1em;
 
