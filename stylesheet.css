@@ -331,6 +331,17 @@ This is used for the schur section on the entry pages.
 	padding-top:2em;
     }
 
+.schur-div{
+	overflow-y:scroll;
+	height: 600px;
+	display:inline-block;
+	float:left;
+	margin-left:1em;
+	padding:2em;
+	margin-top:3em;
+	height: 400px;
+}
+
 /* 
 This is used to contain the schur heatmaps.
  */
