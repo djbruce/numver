@@ -1,14 +1,14 @@
 /* 
 This is used to store the betti tables on all pages with a betti table.
  */
-.betti_div{
+.betti-div{
 	overflow-x:scroll;
 	width: 900px;
 	display:inline-block;
 	position:absolute;
 	margin-left:2em;
 	padding:1.5em;
-	margin-top:25em;
+	margin-top:12em;
 }
 
 /* 
@@ -222,7 +222,7 @@ This is used to contain the multideg section on the entry pages.
 	float:left;
 	margin-left:1em;
 	padding:2em;
-	margin-top:2em;
+	margin-top:3em;
 	height: 400px;
 }
 
@@ -449,9 +449,4 @@ This is used to toggle the various betti tables on all pages with a betti table.
 #tableC {
     display: none;
 }
-
-
-
-
-
 
