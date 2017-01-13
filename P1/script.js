@@ -1,9 +1,29 @@
 $(function(){
-	$("#include-navbar").load("https://djbruce.github.io/numver/navbar");
+	$("#include-navbar").load("https://djbruce.github.io/numver/navbar.html");
 });
 
 $(function(){
-	$("#include-betti1_0").load("https://djbruce.github.io/numver/P1/1_0/betti.html");
+	$("#include-betti1_0").load("https://djbruce.github.io/numver/P1/1_0/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -14,7 +34,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti2_0").load("https://djbruce.github.io/numver/P1/2_0/betti.html");
+	$("#include-betti2_0").load("https://djbruce.github.io/numver/P1/2_0/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -32,7 +72,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti2_1").load("https://djbruce.github.io/numver/P1/2_1/betti.html");
+	$("#include-betti2_1").load("https://djbruce.github.io/numver/P1/2_1/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -50,7 +110,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti3_0").load("https://djbruce.github.io/numver/P1/3_0/betti.html");
+	$("#include-betti3_0").load("https://djbruce.github.io/numver/P1/3_0/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -75,7 +155,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti3_1").load("https://djbruce.github.io/numver/P1/3_1/betti.html");
+	$("#include-betti3_1").load("https://djbruce.github.io/numver/P1/3_1/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -100,7 +200,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti3_2").load("https://djbruce.github.io/numver/P1/3_2/betti.html");
+	$("#include-betti3_2").load("https://djbruce.github.io/numver/P1/3_2/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -125,7 +245,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti4_0").load("https://djbruce.github.io/numver/P1/4_0/betti.html");
+	$("#include-betti4_0").load("https://djbruce.github.io/numver/P1/4_0/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -157,7 +297,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti4_1").load("https://djbruce.github.io/numver/P1/4_1/betti.html");
+	$("#include-betti4_1").load("https://djbruce.github.io/numver/P1/4_1/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -189,7 +349,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti4_2").load("https://djbruce.github.io/numver/P1/4_2/betti.html");
+	$("#include-betti4_2").load("https://djbruce.github.io/numver/P1/4_2/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -221,7 +401,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti4_3").load("https://djbruce.github.io/numver/P1/4_3/betti.html");
+	$("#include-betti4_3").load("https://djbruce.github.io/numver/P1/4_3/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -253,7 +453,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti5_0").load("https://djbruce.github.io/numver/P1/5_0/betti.html");
+	$("#include-betti5_0").load("https://djbruce.github.io/numver/P1/5_0/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -292,7 +512,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti5_1").load("https://djbruce.github.io/numver/P1/5_1/betti.html");
+	$("#include-betti5_1").load("https://djbruce.github.io/numver/P1/5_1/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -331,7 +571,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti5_2").load("https://djbruce.github.io/numver/P1/5_2/betti.html");
+	$("#include-betti5_2").load("https://djbruce.github.io/numver/P1/5_2/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -370,7 +630,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti5_3").load("https://djbruce.github.io/numver/P1/5_3/betti.html");
+	$("#include-betti5_3").load("https://djbruce.github.io/numver/P1/5_3/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -409,7 +689,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti5_4").load("https://djbruce.github.io/numver/P1/5_4/betti.html");
+	$("#include-betti5_4").load("https://djbruce.github.io/numver/P1/5_4/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -448,7 +748,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti6_0").load("https://djbruce.github.io/numver/P1/6_0/betti.html");
+	$("#include-betti6_0").load("https://djbruce.github.io/numver/P1/6_0/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -494,7 +814,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti6_1").load("https://djbruce.github.io/numver/P1/6_1/betti.html");
+	$("#include-betti6_1").load("https://djbruce.github.io/numver/P1/6_1/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -540,7 +880,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti6_2").load("https://djbruce.github.io/numver/P1/6_2/betti.html");
+	$("#include-betti6_2").load("https://djbruce.github.io/numver/P1/6_2/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -586,7 +946,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti6_3").load("https://djbruce.github.io/numver/P1/6_3/betti.html");
+	$("#include-betti6_3").load("https://djbruce.github.io/numver/P1/6_3/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -632,7 +1012,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti6_4").load("https://djbruce.github.io/numver/P1/6_4/betti.html");
+	$("#include-betti6_4").load("https://djbruce.github.io/numver/P1/6_4/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -678,7 +1078,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti6_5").load("https://djbruce.github.io/numver/P1/6_5/betti.html");
+	$("#include-betti6_5").load("https://djbruce.github.io/numver/P1/6_5/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -724,7 +1144,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti7_0").load("https://djbruce.github.io/numver/P1/7_0/betti.html");
+	$("#include-betti7_0").load("https://djbruce.github.io/numver/P1/7_0/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -777,7 +1217,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti7_1").load("https://djbruce.github.io/numver/P1/7_1/betti.html");
+	$("#include-betti7_1").load("https://djbruce.github.io/numver/P1/7_1/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -830,7 +1290,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti7_2").load("https://djbruce.github.io/numver/P1/7_2/betti.html");
+	$("#include-betti7_2").load("https://djbruce.github.io/numver/P1/7_2/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -883,7 +1363,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti7_3").load("https://djbruce.github.io/numver/P1/7_3/betti.html");
+	$("#include-betti7_3").load("https://djbruce.github.io/numver/P1/7_3/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -936,7 +1436,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti7_4").load("https://djbruce.github.io/numver/P1/7_4/betti.html");
+	$("#include-betti7_4").load("https://djbruce.github.io/numver/P1/7_4/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -989,7 +1509,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti7_5").load("https://djbruce.github.io/numver/P1/7_5/betti.html");
+	$("#include-betti7_5").load("https://djbruce.github.io/numver/P1/7_5/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -1042,7 +1582,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti7_6").load("https://djbruce.github.io/numver/P1/7_6/betti.html");
+	$("#include-betti7_6").load("https://djbruce.github.io/numver/P1/7_6/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -1095,7 +1655,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti8_0").load("https://djbruce.github.io/numver/P1/8_0/betti.html");
+	$("#include-betti8_0").load("https://djbruce.github.io/numver/P1/8_0/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -1155,7 +1735,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti8_1").load("https://djbruce.github.io/numver/P1/8_1/betti.html");
+	$("#include-betti8_1").load("https://djbruce.github.io/numver/P1/8_1/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -1215,7 +1815,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti8_2").load("https://djbruce.github.io/numver/P1/8_2/betti.html");
+	$("#include-betti8_2").load("https://djbruce.github.io/numver/P1/8_2/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -1275,7 +1895,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti8_3").load("https://djbruce.github.io/numver/P1/8_3/betti.html");
+	$("#include-betti8_3").load("https://djbruce.github.io/numver/P1/8_3/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -1335,7 +1975,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti8_4").load("https://djbruce.github.io/numver/P1/8_4/betti.html");
+	$("#include-betti8_4").load("https://djbruce.github.io/numver/P1/8_4/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -1395,7 +2055,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti8_5").load("https://djbruce.github.io/numver/P1/8_5/betti.html");
+	$("#include-betti8_5").load("https://djbruce.github.io/numver/P1/8_5/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -1455,7 +2135,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti8_6").load("https://djbruce.github.io/numver/P1/8_6/betti.html");
+	$("#include-betti8_6").load("https://djbruce.github.io/numver/P1/8_6/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -1515,7 +2215,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti8_7").load("https://djbruce.github.io/numver/P1/8_7/betti.html");
+	$("#include-betti8_7").load("https://djbruce.github.io/numver/P1/8_7/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -1575,7 +2295,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti9_0").load("https://djbruce.github.io/numver/P1/9_0/betti.html");
+	$("#include-betti9_0").load("https://djbruce.github.io/numver/P1/9_0/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -1642,7 +2382,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti9_1").load("https://djbruce.github.io/numver/P1/9_1/betti.html");
+	$("#include-betti9_1").load("https://djbruce.github.io/numver/P1/9_1/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -1709,7 +2469,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti9_2").load("https://djbruce.github.io/numver/P1/9_2/betti.html");
+	$("#include-betti9_2").load("https://djbruce.github.io/numver/P1/9_2/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -1776,7 +2556,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti9_3").load("https://djbruce.github.io/numver/P1/9_3/betti.html");
+	$("#include-betti9_3").load("https://djbruce.github.io/numver/P1/9_3/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -1843,7 +2643,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti9_4").load("https://djbruce.github.io/numver/P1/9_4/betti.html");
+	$("#include-betti9_4").load("https://djbruce.github.io/numver/P1/9_4/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -1910,7 +2730,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti9_5").load("https://djbruce.github.io/numver/P1/9_5/betti.html");
+	$("#include-betti9_5").load("https://djbruce.github.io/numver/P1/9_5/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -1977,7 +2817,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti9_6").load("https://djbruce.github.io/numver/P1/9_6/betti.html");
+	$("#include-betti9_6").load("https://djbruce.github.io/numver/P1/9_6/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -2044,7 +2904,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti9_7").load("https://djbruce.github.io/numver/P1/9_7/betti.html");
+	$("#include-betti9_7").load("https://djbruce.github.io/numver/P1/9_7/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -2111,7 +2991,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti9_8").load("https://djbruce.github.io/numver/P1/9_8/betti.html");
+	$("#include-betti9_8").load("https://djbruce.github.io/numver/P1/9_8/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -2178,7 +3078,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti10_0").load("https://djbruce.github.io/numver/P1/10_0/betti.html");
+	$("#include-betti10_0").load("https://djbruce.github.io/numver/P1/10_0/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -2252,7 +3172,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti10_1").load("https://djbruce.github.io/numver/P1/10_1/betti.html");
+	$("#include-betti10_1").load("https://djbruce.github.io/numver/P1/10_1/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -2326,7 +3266,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti10_2").load("https://djbruce.github.io/numver/P1/10_2/betti.html");
+	$("#include-betti10_2").load("https://djbruce.github.io/numver/P1/10_2/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -2400,7 +3360,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti10_3").load("https://djbruce.github.io/numver/P1/10_3/betti.html");
+	$("#include-betti10_3").load("https://djbruce.github.io/numver/P1/10_3/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -2474,7 +3454,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti10_4").load("https://djbruce.github.io/numver/P1/10_4/betti.html");
+	$("#include-betti10_4").load("https://djbruce.github.io/numver/P1/10_4/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -2548,7 +3548,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti10_5").load("https://djbruce.github.io/numver/P1/10_5/betti.html");
+	$("#include-betti10_5").load("https://djbruce.github.io/numver/P1/10_5/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -2622,7 +3642,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti10_6").load("https://djbruce.github.io/numver/P1/10_6/betti.html");
+	$("#include-betti10_6").load("https://djbruce.github.io/numver/P1/10_6/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -2696,7 +3736,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti10_7").load("https://djbruce.github.io/numver/P1/10_7/betti.html");
+	$("#include-betti10_7").load("https://djbruce.github.io/numver/P1/10_7/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -2770,7 +3830,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti10_8").load("https://djbruce.github.io/numver/P1/10_8/betti.html");
+	$("#include-betti10_8").load("https://djbruce.github.io/numver/P1/10_8/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -2844,7 +3924,27 @@ $(function(){
 });
 
 $(function(){
-	$("#include-betti10_9").load("https://djbruce.github.io/numver/P1/10_9/betti.html");
+	$("#include-betti10_9").load("https://djbruce.github.io/numver/P1/10_9/betti.html",function(){
+		var tableA = document.getElementById("tableA");
+		var tableB = document.getElementById("tableB");		var tableC = document.getElementById("tableC");
+
+		var btnTabA = document.getElementById("showTableA");
+		var btnTabB = document.getElementById("showTableB");
+		var btnTabC = document.getElementById("showTableC");
+
+		btnTabA.onclick = function () {
+			tableA.style.display = "table";
+			tableB.style.display = "none";
+			tableC.style.display = "none";		}
+		btnTabB.onclick = function () {
+			tableB.style.display = "table";
+			tableC.style.display = "none";
+			tableA.style.display = "none";		}
+		btnTabC.onclick = function () {
+			tableC.style.display = "table";
+			tableA.style.display = "none";
+			tableB.style.display = "none";		}
+	});
 });
 
 $(function(){
@@ -2917,58 +4017,3 @@ $(function(){
 	$("#include-sc10_9_6_0").load("https://djbruce.github.io/numver/P1/10_9/sctable_6_0.html");
 });
 
-$(function(){
-    $("#include-betti3_0").load("https://djbruce.github.io/numver/P1/3_0/betti.html", function() {
-        var tableA = document.getElementById("tableA");
-        var tableB = document.getElementById("tableB");
-        var tableC = document.getElementById("tableC");
-
-        var btnTabA = document.getElementById("showTableA");
-        var btnTabB = document.getElementById("showTableB");
-        var btnTabC = document.getElementById("showTableC");
-
-        btnTabA.onclick = function () {
-            tableA.style.display = "table";
-            tableB.style.display = "none";
-            tableC.style.display = "none";
-        }
-        btnTabB.onclick = function () {
-            tableA.style.display = "none";
-            tableB.style.display = "table";
-            tableC.style.display = "none";
-        }
-        btnTabC.onclick = function () {
-            tableA.style.display = "none";
-            tableB.style.display = "none";
-            tableC.style.display = "table";
-        }
-    });
-});
-
-$(function(){
-    $("#include-betti3_1").load("https://djbruce.github.io/numver/P1/3_1/betti.html", function() {
-        var tableA = document.getElementById("tableA");
-        var tableB = document.getElementById("tableB");
-        var tableC = document.getElementById("tableC");
-
-        var btnTabA = document.getElementById("showTableA");
-        var btnTabB = document.getElementById("showTableB");
-        var btnTabC = document.getElementById("showTableC");
-
-        btnTabA.onclick = function () {
-            tableA.style.display = "table";
-            tableB.style.display = "none";
-            tableC.style.display = "none";
-        }
-        btnTabB.onclick = function () {
-            tableA.style.display = "none";
-            tableB.style.display = "table";
-            tableC.style.display = "none";
-        }
-        btnTabC.onclick = function () {
-            tableA.style.display = "none";
-            tableB.style.display = "none";
-            tableC.style.display = "table";
-        }
-    });
-});
