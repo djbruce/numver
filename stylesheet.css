@@ -209,7 +209,7 @@ This is used to contain the multideg section on the entry pages.
 	margin-left:3em;
 	margin-right:2em;
 	margin-top:27em;
-	padding-top:3em;
+	
     }
     
 /* 
@@ -326,7 +326,7 @@ This is used for the schur section on the entry pages.
 	font-family: 'Merriweather', serif;
     font-size:16px;
     width:1000px;
-	display:inline-block;
+	display:inline;
 	margin-left:3em;
 	margin-right:2em;
 	margin-top:5em;
