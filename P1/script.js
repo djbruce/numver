@@ -2946,7 +2946,7 @@ $(function(){
 });
 
 $(function(){
-    $("#include-betti3_0").load("https://djbruce.github.io/numver/P1/3_0/betti.html", function() {
+    $("#include-betti3_1").load("https://djbruce.github.io/numver/P1/3_1/betti.html", function() {
         var tableA = document.getElementById("tableA");
         var tableB = document.getElementById("tableB");
         var tableC = document.getElementById("tableC");
