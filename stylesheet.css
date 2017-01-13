@@ -5,7 +5,7 @@ This is used to store the betti tables on all pages with a betti table.
 	overflow-x:scroll;
 	width: 900px;
 	display:inline-block;
-	position:absolute;
+	/* position:absolute; */
 	margin-left:2em;
 	padding:1.5em;
 	margin-top:12em;
