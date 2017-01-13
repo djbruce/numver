@@ -217,7 +217,7 @@ This is used to contain the multideg section on the entry pages.
 .multideg-div{
 	overflow-y:scroll;
 	height: 600px;
-	display:inline-block;
+	
 	float:left;
 	margin-left:1em;
 	padding:2em;
@@ -334,7 +334,7 @@ This is used for the schur section on the entry pages.
 .schur-div{
 	overflow-y:scroll;
 	height: 600px;
-	display:inline-block;
+	
 	float:left;
 	margin-left:1em;
 	padding:2em;
