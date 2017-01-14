@@ -1,0 +1,188 @@
+<!DOCTYPE html> 
+<html>
+
+<head> 
+	<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    TeX: {
+  extensions: ["extpfeil.js"]
+
+}
+  });
+</script>
+	<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+		<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+	<title>NumVer - Background</title> 
+</head>
+
+<body>
+
+	 <div id="include-navbar"></div>
+	
+	<div class="overview">
+		<p>
+		
+Let \(S=\textbf{k}[x_0,\ldots,x_n]\) be the polynomial ring over a field \(\textbf{k}\) considered with the standard grading. 
+If \(M\) is a finitely generated graded \(S\)-module the <b>graded Betti numbers</b> of \(M\) are defined to be
+$$\beta_{p,p+q}(M):=\dim_{\textbf{k}}\text{Tor}_{p}^S(M,\textbf{k})_{p+q}.$$
+Following the standard convention we shall write \(K_{p,q}(M)\) for the dimension of \(\text{Tor}_{p}^S(M,\textbf{k})_{p+q}\)
+as a \(\textbf{k}\)-vector space. This way we have that:
+$$K_{p,q}(M)=\beta_{p,p+q}(M).$$
+
+<b>Example 1.</b> Taking \(n=2\) and \(M\) ADDD
+
+Generalizing the previous example the <b>\(d\)-th Veronese subring of \(S\)</b> 
+<b>I. Introduction</b> If \(S=\textbf{k}[x_0,\ldots,x_n]\) is a polynomial ring over a field \(\textbf{k}\) with the
+standard grading the \(d\)th Veronese subring of \(S\) is the graded subring
+$$ S^{(d)}=\bigoplus_{k\geq0}S_{kd}.$$
+More concretely if we let \(\{\textbf{m}_1,\ldots,\textbf{m}_N\}\subset\mathbb{N}^{n+1}\) be the set of elements such that
+\(\|\textbf{m}_i\|_0=d\) then \(S^{(d)}\) is the subring generated, in degree one, by the \(\textbf{x}^{\textbf{m}_i}\) i.e. by the monomials of degree \(d\).
+Letting \(R=\textbf{k}[y_1,\ldots,y_N]\) with the standard grading we see that \(S^{(d)}\) has the
+structure of a graded \(R\)-module given by the ring morphism:
+$$R=\textbf{k}[y_1,\ldots,y_N]\xrightarrow{\quad\quad\quad\quad\quad} \textbf{k}[x^{\textbf{m}_1},\ldots,x^{\textbf{m}_N}]=S^{(d)}$$
+$$ y_i\xmapsto{\quad\quad\quad\quad\quad\quad} \textbf{x}^{\textbf{m}_i}.$$
+Geometrically \(S^{(d)}\) corresponds to the image of the \(d\)-uple
+embedding of \(\mathbb{P}^n\) as a subscheme of \(\mathbb{P}^N\). With this set up the first goal of this
+project is as follows:
+
+<br> <br> 
+<b>Goal #1: Compute the graded Betti numbers of \(S^{(d)}\) as an \(R\)-module.</b> 
+<br> <br> 
+
+The graded Betti numbers of \(S^{(d)}\) can be
+computed from certain graded Tor modules (CITATION). In
+particular, since 
+
+$$ \beta_{i,j}\left(S^{(d)}\right)=\dim_{\textbf{k}}\text{Tor}_i^R\left(\textbf{k},S^{(d)}\right)_j$$
+
+we may compute the graded Betti numbers of \(S^{(d)}\)
+by constructing a graded free resolution \(\mathbb{F}\) of \(\textbf{k}\) as an
+\(R\)-module, and then computing the homology of the complex \(\mathbb{F}
+\otimes S^{(d)}\).
+Specifically, using the Koszul resolution of \(\textbf{k}\)the graded Betti numbers of \(S^{(d)}\) are given by the homology of the following complex:
+$$
+\cdots\xrightarrow{\quad\quad}\wedge^{i+1}S_d\otimes S_{(j-1)d}\xrightarrow{\quad\partial_{i+1}\quad\quad} \wedge^{i}S_d\otimes S_{(j)d}\xrightarrow{\quad\partial_{i}\quad\quad}\wedge^{i-1}S_d\otimes S_{(j+1)d}\xrightarrow{\quad \quad}\cdots
+$$ 
+where the differentials \(\partial_i\) are given as follows:
+$$\left(m_1\wedge m_2\wedge\cdots\wedge m_i\right)\otimes f\xmapsto{\quad\quad\quad}\sum_{k=1}^i(-1)^{k}\left(m_1\wedge\cdots\wedge \hat{m}_k\wedge \cdots\wedge m_i\right)\otimes f.$$
+Thus, Goal #1 may be approached in two steps:
+<ol>
+ <li> Compute matrices corresponding to the differentals of the above complex.</li>
+ <li> Compute the ranks of these matrices. </li>
+</ol> 
+While Step 1 relatively straightforward, it quickly shows the looming difficulty one faces in dealing with
+Step 2: the matrices corresponding to the differentals are <em>gigantically huge</em>. For example, all of the matrices
+needed to compute the graded Betti numbers of \(S^{(5)}\) when \(n=2\) occupy over (ADD LATER)! In particular, based on the sear
+size of these matrices most naive approaches to Step 2 simply are not computationally feasaible.
+<br> <br> 
+In light of this we focus our attention on solving a slightly more refined problem, which is more
+tractable and in the end also address Goal #1.
+<br> <br> 
+<b>Goal #2: Compute the multi-graded Betti numbers of \(S^{(d)}\).</b>
+<br> <br> 
+That is instead of considering \(S\) with the standard \(\mathbb{Z}\)-grading described above, 
+we endow it with a \(\mathbb{Z}^{n+1}\)-grading. Specifically, we let \(S^{(d)}\) inherit the \(\mathbb{Z}^{n+1}\)-grading from \(S\) induced
+by letting \(\textbf{deg}(x_i)=\textbf{e}_i\) where \(\textbf{e}_i\) is the \(i\)th basis vector of \(\mathbb{Z}^{n+1}\). We then give \(R\) a \(\mathbb{Z}^{n+1}\)-grading 
+by letting \(\textbf{deg}(y_i)=\textbf{m}_i\), in which case the ring homomorphism above again makes \(S^{(d)}\) into a graded \(R\)-module with respects to this \(\mathbb{Z}^{n+1}\)-grading.
+<br> <br> 
+Thus, it makes sense to ask for the graded Betti numbers of \(S^{(d)}\) as an \(R\)-module with respect to this grading. That is an \(R\)-module \(S^{(d)}\) has a 
+finite graded minimal free resolution \(\mathbb{F}\), and each \(\mathbb{F}_{i}\) has the form
+$$\mathbb{F}_i\cong\bigoplus_{\textbf{m}\in \mathbb{Z}^{n+1}}R(-\textbf{m})^{\beta_{i,\textbf{m}}},$$
+and so we may wish to compute the \(\beta_{i,\textbf{m}}\). We call these the <em>multi-graded Betti numbers</em> to distinguish them from the Betti numbers with respects to the standard grading. 
+<br> <br>
+Notice if we let \(\textbf{w}:=(d^{-1},d^{-1},\ldots,d^{-1})\in \mathbb{Q}^{n+1}\) then
+$$\textbf{w}\cdot \textbf{deg}(y_i)=\textbf{w}\cdot\textbf{m}_i=1,$$
+from which we get that:
+$$R(-j)\cong\bigoplus_{\textbf{w}\cdot\textbf{m}=j}R(-j).$$
+Thus, multi-graded Betti numbers and the standard graded Betti, and so Goal #1 and Goal #2, are related in the following way:
+$$\beta_{i,j}\left(S^{(d)}\right)=\sum_{\textbf{w}\cdot\textbf{m}=j}\beta_{i,\textbf{m}}\left(S^{(d)}\right).$$
+Moreover, the differentals Koszul complex discussed above all respect this multi-grading. So this relation shows we may 
+compute the multi-graded Betti numbers of \(S^{(d)}\) by decomposing the complex above into its
+multi-graded pieces and computing the homology of the resulting complexe. <em>This is the approach we take.</em>
+Specifically, we attempt to achieve Goal #2 via the following steps:
+<ol>
+<li> Construct the differentials for the multi-graded Koszul complex.</li>
+<li> Compute the ranks of these matrices.</li>
+<li> Use high throughput computing to handle workflow</li>
+</ol>
+
+<br> <br> 
+
+<b>II. Constructing the Differentals</b>
+
+<br> <br> 
+
+<b>III. Computing the Ranks:</b> (Code with Examples)
+<br> <br> 			
+ Even when dealing with a single multi-degree the matrices we must deal with
+ are quite large, and their size grows quickly in both \(d\) and \(n\). For these reasons it is impractical to use standard
+"dense" matrix algorithms. That is if you were to load one of these matrices into your favorite
+mathematical computation system (MatLab, Mathemaitca, Sage, etc.) and typed rank(A) you would be unlikely to 
+see the program terminate successfully. rank(A) into your favor mathematical computing system
+(MatLab, Mathematica, Sage, etc.) you would be unlikely get
+an answer. 
+
+<br> <br> 
+
+Thus, since the matrices in question are sparse, i.e. they have relatively few non-zero entries, we make use of sparse algorithms for rank computation.
+Specifically, we base our rank computations around a rank reveling version of QR-factorization. Like many matrix factorizations
+QR-factorization seeks to write a matrix \(A\) as product of two matrices that are easier to understand. In the version of QR-factorization
+we implement this means writing given an \(n\times m\) matrix \(A\) as: 
+$$AP=QR$$
+where: 
+<ul>
+<li>\(P\) is a \(m\times m\) permutation matrix,</li>
+<li>\(Q\) is an \(n\times n\) unitary matrix,</li>
+<li>\(R\) is an \(n\times m\) upper-triangular matrix.</li>
+</ul> 
+Thus, the rank of \(A\) is equal to the rank of \(R\), which is the number of non-zero entries of \(R\). In our implementation we use
+MatLab to load our matrices as <a href="http://www.mathworks.com/help/matlab/sparse-matrices.html">sparse matices</a>,
+ compute their QR-factorization using MatLab's <a href="http://www.mathworks.com/help/symbolic/qr.html">qr function</a>, and then count
+the number of non-zero entries on the diagonal in the resulting \(R\) matrix.
+
+<br> <br> 
+			
+While the use of these sparse methods means we are able to go well beyond what is capable with dense algorithms there is some price to pay; namely these methods
+are all numerical and thus are not necessarily precise. This inpercision occurs in two places during rank computation. 
+First, when using MatLab's qr command the resulting factorization \(AP=QR\) is only true up to some machine precision as these computations are done in floating point.
+Second, as the matrix \(R\) consists of floating point numbers we must make a determination 
+of what we mean by "0" when we count the number of non-zero entries in \(R\). For our 
+purposes we use a tolerance of \(\text{max}\{m,n\}\epsilon\lambda\) where \(A\) is \(n\times m\), \(\lambda\) is the largest diagonal entry of \(R\), and \(\epsilon=2^{-25}\).		
+
+<br> <br> 
+				
+<b>IV. High Throughput Computing:</b>
+<br> <br> 
+
+While working multi-degree by multi-degree makes the problem more computationally tractable, and allows us to continue collecting data beyond what is possible with other techniques it does 
+raise a few issues. In particular, the number of multi-degrees one must work with for any particular Betti number can be quite large. For example, EXAMPLE NEEDED.
+One would likely not want to sit at a computer and manually run each of these (ADD LATER) matrices through our rank program one by one. Additionally, while many of the multi-degrees
+are computational easy, they can run on a standard MacBook, some are not and require GB's of memory! To overcome these challenges we use high throughput commuting and HTCondor to 
+handle our workflow.
+<br> <br> 
+The idea behind high throughput computing (HTC) is to take our many computations, each of which is entirely independent, and spread them out over numerous 
+different CPU's. Thus, at any one point we don't just have a single multi-degree being computed on one very fast machine, but instead have hundreds of multi-degrees
+being computed simultaneously. Of course one needs a way to manage all of these jobs, which is where <a href="https://research.cs.wisc.edu/htcondor/index.html">HTCondor</a> steps in. 
+HTCondor takes our queue of jobs and searches around the UW-Madison campus for used CPU's, pairing our jobs with CPU's with the
+correct memory. (This is roughly the same computing set up used by CERN and the LHC!) In this way we are able to easily run the computations for an entire Betti table in an efficient fashion.
+<br> <br> 			
+
+<b>V. Reducing the Number of Computations</b>
+
+Despite the incredibly increases in capabilities we achieve by combing spare numerical linear algebra together with 
+high throughput computing these computations are still quite intensive for larger \(d\) or \(n\). Thus, as \(d\) and \(n\) increase
+we also work to be diligent about how many computations we must due. For example, the differentials for a multi-degree \((m_1,\ldots,m_n)\)
+only dependes on the values of the \(m_i\) not their order. Thus, we only need to work with the differentals corresponding to multidegrees
+that are weakly increasing, reducing our computations by \(n!\). 
+<br> <br> 
+ADD MORE HERE					 
+		</p>
+	</div>
+
+</body> 
+</html>
