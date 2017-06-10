@@ -1,0 +1,6 @@
+permalink: /notes/:year/:month/:day/:title
+markdown: kramdown
+baseurl: /numver
+
+gems:
+  - jekyll-redirect-from
